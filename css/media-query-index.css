@@ -1,0 +1,67 @@
+
+
+@media screen and (max-width: 600px) {
+    header {
+        width: 100vw;
+    }
+
+    #home {
+        display: block;
+        padding: 0;
+    }
+
+    #home h1,
+    #o_que_fazemos h1 {
+        font-size: 2em;
+        margin: 2rem;
+    }
+
+    #home p,
+    #o_que_fazemos p {
+        width: 21rem;
+        margin: 2rem;
+    }
+
+    #home img {
+        width: 100vw;
+    }
+
+
+    #o_que_fazemos img{
+        display: none;
+    }
+
+    #projetos h1 {
+        font-size: 2em;
+    }
+
+    .card-inner h2 {
+        font-size: 2em;
+    }
+    .card-inner p {
+        font-size: 1.5em;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) {
+    i#burguer {
+        display: none;
+    }
+    menu {
+        display: block;
+    }
+
+    menu li {
+        display: inline-block;
+
+    }
+}
+
+
+
+
+
+
+

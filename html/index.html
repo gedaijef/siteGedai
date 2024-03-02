@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gedai</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../css/media-query-index.css">
+</head>
+
+<body onresize="mudouTamanho()">
+
+    <header>
+        <h1>Gedai</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#o_que_fazemos">Sobre nós</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#area-ais">Ais</a></li>
+            </ul>
+        </menu>
+    </header>
+
+
+    <main>
+        <!-- O que é o GEDAI -->
+        <section id="home">
+            <div>
+                <h1 class="subtitulo">O que é GEDAI?</h1>
+                <p>GEDAI é a sigla para <i>Grupo de Estudos e Desenvolvimento de Artificial Inteligence</i>, foi uma
+                    iniciativa do professor Marcelo Grilo com o intuito de juntar alguns alunos para estudar, aprender e
+                    aplicar inteligência artificial para automatizar várias tarefas que normalmente são as pessoas que
+                    fazem, ajudando tanto colaboradores, quanto professores e alunos, buscando contribuir com o
+                    Instituto e
+                    com as empresas.
+                </p>
+            </div>
+            <div><img src="../img/index/Foto_Gedai.jpeg" alt="Foto da equipe"></div>
+        </section>
+
+
+        <!-- O que nós fazemos -->
+        <section id="o_que_fazemos">
+
+            <img src="../img/index/foto_ai.png" alt="imagem de uma AI">
+
+
+            <div>
+                <h1>O que nós fazemos?</h1>
+                <p>O GEDAI tem como objetivo buscar conhecimento sobre o desenvolvimento da inteligência artificial e
+                    pensar
+                    em como podemos aplicar isso no nosso dia a dia, buscando soluções e resolvendo cada desafio que nos
+                    é
+                    proposto da melhor forma possível. Levando também toda informação a diante para um mundo mais
+                    conectado.
+                </p>
+            </div>
+        </section>
+
+
+        <!-- Projetos -->
+        <section id="projetos">
+            <h1>Conheça alguns projetos</h1>
+
+
+            <div class="folder-column">
+                <div class="card">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="card-inner">
+                        <h2>Rhai - Chatbot</h2>
+                        <p>Esse projeto foi iniciado com a ideia de criar um Chatbot que
+                            ajudasse a diminuir os chamados em relação com o RH do Instituto J&F. A RHAI com uma
+                            mensagem pode te encaminhar para a solução da sua dúvida ou problema de forma
+                            rápida, ajudando tanto quem precisa de ajuda quanto quem trabalham no
+                            RH junto a ela e está melhorando cada dia mais para se tornar mais eficiente para todos.
+                        </p>
+                    </div>
+                </div>
+
+
+
+                <div class="card">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="card-inner">
+                        <h2>Suporte T.I</h2>
+                        <p>Foi criado com o intuito de ajudar também com os chamados de problemas que acontecem nas
+                            salas de aula, automatizando muito a forma como a TI atente esses chamados. A forma
+                            encontrada pra resolver esse problema foi desenvolver um site de
+                            suporte para a TI, onde lá as pessoas pudessem informar a sala e o problema que precisa
+                            ser resolvido, assim, facilitando a organização para a TI e para quem precisa de ajuda.
+                        </p>
+                    </div>
+                </div>
+
+
+                <a href="../html/indexFolder.html" target="_blank" rel="next">
+                    <div class="card">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="card-inner">
+                            <h2>Folder’s</h2>
+                            <p>Todo mês nossa equipe cria um folder com diversas inteligências
+                                artificiais, com o objetivo de ajudar a automatizar o trabalho, tanto de um
+                                colaborador do Instituto, quanto o de um professor. Já foram
+                                mais de 300 entregues por todo o Instituto.</p>
+                        </div>
+                    </div>
+            </div>
+            </a>
+        </section>
+
+
+
+        <section id="area-ais"> <!-- main -->
+            <h1>Conheça algumas AIs</h1>
+
+
+            <div id="card-ais">
+                <div class="cards"> <!-- Section -->
+
+
+                    <div class="img">
+                        <img src="../img/Index/GPT Logo.jpg" alt="logo do chat-gpt" class="banner">
+                    </div>
+
+
+                    <div class="textos">
+                        <div>
+                            <h2 class="subtitulo-card">Chat-GPT</h2>
+                        </div>
+                        <div class="texto-card">
+                            <p>O ChatGPT, desenvolvido pela OpenAI, é um chatbot com IA avançada capaz de dialogar e
+                                fornecer
+                                respostas coerentes e contextuais.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <div class="img">
+                        <img src="../img/Index/Gamma Logo.jpg" alt="logo do gamma" class="banner">
+                    </div>
+                    <div class="textos">
+                        <div>
+                            <h2 class="subtitulo-card">Gamma</h2>
+                        </div>
+                        <div class="texto-card">
+                            <p>Gamma.app automatiza a criação de slides de forma intuitiva, transformando instruções de
+                                texto em
+                                apresentações estilizadas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="img">
+                        <img src="../img/Index/Xmind Logo.jpg" alt="logo do xmind" class="banner">
+                    </div>
+                    <div class="textos">
+                        <div>
+                            <h2 class="subtitulo-card">Xmind</h2>
+                        </div>
+                        <div class="texto-card">
+                            <p>Xmind oferece soluções inovadoras para o mapeamento mental e brainstorming, facilitando a
+                                organização
+                                de ideias.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="img">
+                        <img src="../img/Index/Bing Logo.jpg" alt="logo do bing" class="banner">
+                    </div>
+                    <div class="textos">
+                        <div>
+                            <h2 class="subtitulo-card">Bing-chat</h2>
+                        </div>
+                        <div class="texto-card">
+                            <p>Bing Chat integra o ChatGPT-4 da Microsoft para prover interações dinâmicas e respostas
+                                informativas
+                                nas buscas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="img">
+                        <img src="../img/Index/Rows Logo.jpg" alt="logo do rows" class="banner">
+                    </div>
+                    <div class="textos">
+                        <div>
+                            <h2 class="subtitulo-card">Rows</h2>
+                        </div>
+                        <div class="texto-card">
+                            <p>Rows AI amplia o potencial de planilhas com recursos de IA para uma análise e manipulação
+                                de
+                                dados
+                                mais ágil.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="img">
+                        <img src="../img/Index/Tome Logo.jpg" alt="logo do tome" class="banner">
+                    </div>
+                    <div class="textos">
+                        <div>
+                            <h2 class="subtitulo-card">Tome.app</h2>
+                        </div>
+                        <div class="texto-card">
+                            <p>Tome.app inova na criação de apresentações interativas através de comandos simples e
+                                suporte de
+                                IA.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="img">
+                        <img src="../img/Index/SideBar Logo.jpg" alt="logo do sidebar" class="banner">
+                    </div>
+                    <div class="textos">
+                        <div>
+                            <h2 class="subtitulo-card">SideBar</h2>
+                        </div>
+                        <div class="texto-card">
+                            <p>SideBar, uma extensão do navegador, integra as funcionalidades do Chat-GPT em qualquer
+                                página da
+                                web.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="img">
+                        <img src="../img/Index/PDF Logo.jpg" alt="logo do chat-pdf" class="banner">
+                    </div>
+                    <div class="textos">
+                        <div>
+                            <h2 class="subtitulo-card">Chat-PDF</h2>
+                        </div>
+                        <div class="texto-card">
+                            <p>ChatPDF utiliza IA para extrair e resumir informações essenciais de documentos PDF de
+                                maneira
+                                eficiente.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div>
+            <h1>GEDAI</h1>
+            <p class="text__info_copy">Copyright © 2023 Gedai. Todos os direitos reservados.</p>
+        </div>
+        <div>
+            <p class="text__info">📍 R. Irineu José Bordon - Vila Jaguara, São Paulo - SP, 05120-060</p>
+            <p class="text__info">📞 +55 (11) 3623-6049</p>
+            <p class="text__info">📧 gedaijef@email.com</p>
+        </div>
+    </footer>
+
+
+
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = "none";
+            }
+            else {
+                itens.style.display = 'block'
+            }
+        }
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+
+            }
+            else {
+                itens.style.display = 'none'
+            }
+        }
+    </script>
+
+</body>
+
+</html>
