@@ -15,19 +15,13 @@
         margin-bottom: 1.5rem;
     }
 
-    #home p,
-    #o_que_fazemos p {
-        width: 80vw;
-        /* margin: 1.5rem; */
-    }
+ 
 
     #home img {
         width: 100vw;
     }
 
-    #o_que_fazemos {
-        height: 20rem;
-    }
+    
 
     #o_que_fazemos h1 {
         font-size: 2em;
@@ -52,9 +46,7 @@
         font-size: 2.1em;
     }
 
-    .card-inner {
-        height: 30rem;
-    }
+
 
     .card-inner h2 {
         font-size: 2.3em;
