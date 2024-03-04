@@ -134,8 +134,10 @@ menu a {
     backdrop-filter: blur(10px);
     border-radius: 8px;
     text-align: center;
-    padding: 20px;
+    padding: 1rem;
     overflow: hidden;
+    justify-content: center;
+    display: grid;
 
 }
 
@@ -175,6 +177,8 @@ menu a {
 
 .card-inner h2 {
     font-size: 1.7em;
+    top: 25%;
+    position: relative;
 }
 
 .card-inner p {
@@ -217,6 +221,10 @@ a {
 .cards {
     background-color: #F2F3F9;
 }
+
+
+
+
 
 #card-ais {
     display: flex;

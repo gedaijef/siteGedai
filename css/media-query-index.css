@@ -17,7 +17,7 @@
 
     #home p,
     #o_que_fazemos p {
-        width: 27rem;
+        width: 80vw;
         /* margin: 1.5rem; */
     }
 
@@ -39,7 +39,7 @@
     }
 
     #o_que_fazemos div, #texto_home {
-        margin: 1.5rem;
+        margin: 1.4rem;
     }
 
 
