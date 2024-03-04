@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-:root {
-    --azul-padrao: #072D84;
-    --azul-header: #041f5d;
-    --branco-padrao: #f4f4f4;
-    --cinza-footer: #1f1f1f;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +12,7 @@ body {
 }
 
 header {    
-    background-color: var(--azul-header);
+    background-color: #001489;
 }
 
 
@@ -41,15 +34,12 @@ i#burguer {
 
 
 menu > ul {
-    
     list-style-type: none;
 }
 
 menu a {
- 
     padding: 16px;
     text-decoration: none;
-
     color: white;
 }
 
@@ -57,11 +47,6 @@ menu a {
     background-color: var(--azul-padrao);
     border-radius: 8px 8px 0px 0px;
 } */
-
-
-
-
-
 
 
 
@@ -83,12 +68,15 @@ menu a {
 }
 
 
+
+
+
 #o_que_fazemos {
     /* Usando flexbox */
     /* align-items: stretch; */
     /* height: auto; */
-    background-color: var(--azul-padrao);
-    color: var(--branco-padrao);
+    background-color: #001489;
+    color: #fff;
     display: flex;
     
     
@@ -156,7 +144,7 @@ menu a {
 .circle {
     width: 90px;
     height: 90px;
-    background: repeating-linear-gradient(48deg, #5849e2 0%, rgb(11, 65, 192) 100%);
+    background:#4C5AAC; 
     border-radius: 8px;
     position: absolute;
     animation: move-up6 2s ease-in infinite alternate-reverse;
@@ -196,7 +184,7 @@ menu a {
 
 a {
     text-decoration: none;
-    color: #1f1f1f;
+    color: #383838;
     font-size: 1.2em;
 }
 
@@ -213,13 +201,13 @@ a {
 
 
 #area-ais {
-    background-color: var(--azul-padrao);
+    background-color: #001489;
     padding: 2em;
     
 }
 
 #area-ais h1{
-    color: var(--branco-padrao);
+    color: #fff;
     font-size: 2em;
     margin-bottom: 1em;
     text-align: center;
@@ -227,7 +215,7 @@ a {
 
 
 .cards {
-    background-color: #d4d4d4;
+    background-color: #F2F3F9;
 }
 
 #card-ais {
@@ -246,7 +234,7 @@ a {
     margin-top: 5vh;
     border-radius: 6px;
     box-shadow: 0px 0px 6px #00000025;
-    border: #e0e0e0 0.2px solid;
+    border: #fff 0.2px solid;
     overflow: hidden;
     margin: 1rem;  
     
@@ -274,8 +262,8 @@ a {
 
 
 footer {
-    background-color: var(--cinza-footer);
-    color: var(--branco-padrao);
+    background-color: #383838;
+    color: #fff;
     padding: 20px;
     display: flex;
     justify-content: space-between;
