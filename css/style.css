@@ -139,28 +139,12 @@ a {
     color: #383838;
     font-size: 1.2em;
 }
-#area-ais {
-    background-color: #001489;
-    padding: 2em;
-}
 
-#area-ais h1{
-    color: #fff;
-    font-size: 2em;
-    margin-bottom: 1em;
-    text-align: center;
-}
 
 .cards {
     background-color: #F2F3F9;
 }
 
-#card-ais {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-}
 
 .cards {
     width: 14rem;
@@ -171,19 +155,6 @@ a {
     border: #fff 0.2px solid;
     overflow: hidden;
     margin: 1rem;     
-}
-
-.banner {
-    width: 100%;
-    height: 100%;
-}
-
-.subtitulo-card {
-    margin-bottom: 1rem;
-}
-
-.textos {
-   margin: 15px;
 }
 
 footer {
