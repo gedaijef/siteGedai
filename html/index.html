@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gedai</title>
-    <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/media-query-index.css">
+    <script src="../js/header.js"></script>
 </head>
 
 <body onresize="mudouTamanho()">
@@ -22,7 +23,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#o_que_fazemos">Sobre nós</a></li>
                 <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#area-ais">Ais</a></li>
+
             </ul>
         </menu>
     </header>
@@ -33,12 +34,13 @@
         <section id="home">
             <div id="texto_home">
                 <h1 class="subtitulo">O que é GEDAI?</h1>
-                <p>GEDAI é a sigla para <i>Grupo de Estudos e Desenvolvimento de Artificial Inteligence</i>, foi uma
-                    iniciativa do professor Marcelo Grilo com o intuito de juntar alguns alunos para estudar, aprender e
-                    aplicar inteligência artificial para automatizar várias tarefas que normalmente são as pessoas que
-                    fazem, ajudando tanto colaboradores, quanto professores e alunos, buscando contribuir com o
-                    Instituto e
-                    com as empresas.
+                <p>GEDAI é a sigla para Grupo de Estudos e Desenvolvimento em <i>Artificial Inteligence</i>, foi uma
+                    iniciativa da <a href="https://institutojef.org.br/escolas/tech/" target="_blank">Germinare TECH</a>
+                    com o intuito de juntar alguns alunos para estudar, aprender e aplicar inteligência artificial para
+                    resolução de problemas diversos, como: automação de processos, criação de sistemas inteligentes,
+                    criacao de chatbots, desenvolvimento de algoritmos, estudar ferramentas de IA para uso ético e
+                    seguro na escola e nos negócios e outros projetos no qual a inteligência artificial possa ser
+                    aplicada.
                 </p>
             </div>
             <div><img src="../img/Foto_Gedai.jpeg" alt="Foto da equipe"></div>
@@ -62,7 +64,7 @@
                 </p>
             </div>
         </section>
-
+        
 
         <!-- Projetos -->
         <section id="projetos">
@@ -131,30 +133,7 @@
             <p class="text__info">📧 gedaijef@email.com</p>
         </div>
     </footer>
-
-
-
-    <script>
-        function clickMenu() {
-            if (itens.style.display == 'block') {
-                itens.style.display = "none";
-            }
-            else {
-                itens.style.display = 'block'
-            }
-        }
-
-        function mudouTamanho() {
-            if (window.innerWidth >= 768) {
-                itens.style.display = 'block'
-
-            }
-            else {
-                itens.style.display = 'block'
-            }
-        }
-    </script>
-
+    
 </body>
 
 </html>

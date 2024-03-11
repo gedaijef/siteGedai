@@ -134,7 +134,9 @@
 }
 
 @media only screen and (min-width: 768px) {
-
+    .menu {
+        display: none;
+      }
     #home {
         display: flex;
         padding: 0;
