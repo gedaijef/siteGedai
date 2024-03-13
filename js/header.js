@@ -1,18 +1,12 @@
-function clickMenu() {
-    if (itens.style.display == 'block') {
-        itens.style.display = "none";
-    }
-    else {
-        itens.style.display = 'block'
-    }
-}
 
-function mudouTamanho() {
-    if (window.innerWidth >= 768) {
-        itens.style.display = 'block'
+const arrayHeight = document.getElementsByClassName('height-nav');
+const navHeight = document.getElementsByTagName('nav')[0].clientHeight;
 
-    }
-    else {
-        itens.style.display = 'block'
-    }
+for (let navHeightObj of arrayHeight)
+    navHeightObj.style.height = navHeight + 'px';
+
+function abrirMenu() {
+    const botoesMenu = document.getElementById('botoesMenu');
+
+    botoesMenu.className = botoesMenu.className.includes('responsivo') ? '' : 'responsivo'
 }

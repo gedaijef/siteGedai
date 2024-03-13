@@ -11,41 +11,62 @@ body {
     line-height: 1.6;
 }
 
-header {
-    background-color: #001489;
-    height: 100px;  
+html {
+    scroll-behavior: smooth;
 }
-
-header h1 {
+nav {
+    background-color: #161616;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+nav h1 {
     color: white;
-    padding-left: 10px;
-    margin-bottom: 10px;
+}
+button {
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+    font-size: 36px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
+}
+nav,
+ul {
+    display: flex;
+    flex-direction: row;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    transition: all .5s;
+}
+li {
+    padding: 0 20px;
 }
 
-header i {
-    color: white;
-}
-
-
-.menu-hamburguer:checked~.menu {
-    display: block;
-}
-
-i#burguer {
+h1 {
+    margin: 0;
     padding: 10px;
+}
+
+
+a:hover,
+h1:hover,
+button:hover {
     cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.2);
 }
-
-menu>ul {
-    list-style-type: none;
-}
-
-menu a {
+a {
     padding: 16px;
     text-decoration: none;
     color: white;
 }
-
 #home {
     display: flex;
     align-items: center;
@@ -140,7 +161,7 @@ menu a {
     margin-top: 1rem;
 }
 
-a {
+#home a, #projetos a {
     text-decoration: none;
     color: #383838;
     font-size: 1.2em;

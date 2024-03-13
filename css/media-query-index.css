@@ -1,7 +1,4 @@
-@media screen and (max-width: 600px) {
-    header {
-        width: 100vw;
-    }
+@media screen and (max-width: 700px) {
 
     #home {
         display: block;
@@ -12,8 +9,6 @@
         font-size: 2em;
         margin-bottom: 1.5rem;
     }
-
-
 
     #home img {
         width: 100vw;
@@ -55,10 +50,42 @@
         font-size: 1.5em;
     }
 
+    nav,
+    ul {
+        flex-direction: column;
+    }
+
+    ul {
+        text-align: center;
+        margin: 0;
+        height: 0;
+    }
+
+    nav {
+        padding: 0;
+        align-items: flex-start;
+    }
+
+    h1 {
+        margin: 10px;
+    }
+
+    button {
+        display: flex;
+    }
+
+    li,
+    ul {
+        width: 100%;
+    }
+
+    ul.responsivo {
+        height: 260px;
+    }
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
 
     #home {
         display: block;
@@ -118,25 +145,12 @@
         font-size: 1.5em;
     }
 
+   
 
-    i#burguer {
-        display: none;
-    }
-
-    menu {
-        display: block;
-    }
-
-    menu li {
-        display: inline-block;
-
-    }
 }
 
+
 @media only screen and (min-width: 768px) {
-    .menu {
-        display: none;
-      }
     #home {
         display: flex;
         padding: 0;
@@ -225,5 +239,5 @@
         font-size: 1.3em;
     }
 
- 
+
 }

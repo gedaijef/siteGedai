@@ -13,19 +13,31 @@
     <script src="../js/header.js"></script>
 </head>
 
-<body onresize="mudouTamanho()">
+<body>
 
-    <header>
-        <h1>GEDAI</h1>
-        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
-        <menu id="itens">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#o_que_fazemos">Sobre nós</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-            </ul>
-        </menu>
-    </header>
+    <nav>
+        <div>
+            <h1>GEDAI</h1>
+        </div>
+        <button onclick="abrirMenu()">&#9776;</button>
+        <ul id="botoesMenu">
+            <a href="#home">
+                <li>
+                    <p>Home</p>
+                </li>
+            </a>
+            <a href="#o_que_fazemos">
+                <li>
+                    <p>Sobre nós</p>
+                </li>
+            </a>
+            <a href="#projetos">
+                <li>
+                    <p>Projetos</p>
+                </li>
+            </a>
+        </ul>
+    </nav>
 
 
     <main>
