@@ -16,38 +16,40 @@
 
 
 
-    #o_que_fazemos h1 {
-        font-size: 2em;
+    #quem_somos h1 {
+        font-size: 1.7rem;
     }
 
-    #o_que_fazemos div {
+    #quem_somos div {
         justify-content: space-between;
         display: grid;
     }
 
-    #o_que_fazemos div,
+    #quem_somos div,
     #texto_home {
         margin: 1.4rem;
     }
 
 
 
-    #o_que_fazemos img {
+    #quem_somos img {
         display: none;
     }
 
     #projetos h1 {
-        font-size: 2.1em;
+        font-size: 1.7em;
     }
 
 
 
     .card-inner h2 {
-        font-size: 2.3em;
+        font-size: 1.8em;
+        margin-bottom: 1em;
     }
 
     .card-inner p {
-        font-size: 1.5em;
+        font-size: 1.2em;
+        margin-bottom: 1em;
     }
 
     nav,
@@ -66,9 +68,7 @@
         align-items: flex-start;
     }
 
-    h1 {
-        margin: 10px;
-    }
+   
 
     button {
         display: flex;
@@ -107,23 +107,23 @@
 
 
 
-    #o_que_fazemos h1 {
+    #quem_somos h1 {
         font-size: 2em;
     }
 
 
 
-    #o_que_fazemos div,
+    #quem_somos div,
     #texto_home {
         margin: 1.4rem;
     }
 
-    #o_que_fazemos p {
+    #quem_somos p {
         font-size: 1.2em;
     }
 
 
-    #o_que_fazemos img {
+    #quem_somos img {
         display: none;
     }
 
@@ -170,16 +170,16 @@
         font-size: 0.9em;
     }
 
-    #o_que_fazemos div {
+    #quem_somos div {
         margin: 1.2rem;
     }
 
-    #o_que_fazemos div,
+    #quem_somos div,
     #texto_home {
         margin: 1.4rem 0px 1.4rem 1.4rem;
     }
 
-    #o_que_fazemos img {
+    #quem_somos img {
         display: block;
     }
 
@@ -218,7 +218,7 @@
         font-size: 2.2em;
     }
 
-    #o_que_fazemos p {
+    #quem_somos p {
         font-size: 1.2em;
         width: 34rem;
     }

@@ -1,6 +1,6 @@
 
 const arrayHeight = document.getElementsByClassName('height-nav');
-const navHeight = document.getElementsByTagName('nav')[0].clientHeight;
+const navHeight = document.getElementsByTagName('nav')[0];
 
 for (let navHeightObj of arrayHeight)
     navHeightObj.style.height = navHeight + 'px';

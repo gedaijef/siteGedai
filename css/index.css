@@ -28,7 +28,7 @@ button {
     background-color: transparent;
     border: none;
     color: #FFF;
-    font-size: 36px;
+    font-size: 2rem;
     position: absolute;
     right: 10px;
     top: 10px;
@@ -70,17 +70,17 @@ a {
     padding-left: 2em;
 }
 
-#o_que_fazemos {
+#quem_somos {
     background-color: #001489;
     color: #fff;
     display: flex;
 }
 
-#o_que_fazemos img {
+#quem_somos img {
     max-width: 30%;
 }
 
-#o_que_fazemos h1 {
+#quem_somos h1 {
     margin-bottom: 1em;
 }
 
@@ -99,7 +99,7 @@ a {
     position: relative;
     margin-inline: 2rem;
     margin-block: 3rem;
-    font-size: 0.7em;
+    font-size: 0.7rem;
     transition: all 0.2s;
 }
 
@@ -118,7 +118,7 @@ a {
 .circle {
     width: 90px;
     height: 90px;
-    background: #4C5AAC;
+    background: #8089C4;
     border-radius: 8px;
     position: absolute;
     animation: move-up6 2s ease-in infinite alternate-reverse;
@@ -137,31 +137,32 @@ a {
 
 @keyframes move-up6 {
     to {
-        transform: translateX(-5px);
+        transform: translateX(-10px);
     }
 }
 
 @keyframes move-down1 {
     to {
-        transform: translateX(5px);
+        transform: translateX(10px);
     }
 }
 
 .card-inner h2 {
-    font-size: 1.7em;
+    font-size: 1.7rem;
     top: 25%;
     position: relative;
 }
 
 .card-inner p {
-    font-size: 1.1em;
+    font-size: 1.1rem;
     margin-top: 1rem;
 }
 
-#home a, #projetos a {
+#o_que_e a, #projetos a {
     text-decoration: none;
     color: #383838;
-    font-size: 1.2em;
+    font-size: 1.2rem;
+    padding: 0;
 }
 
 
@@ -185,10 +186,8 @@ footer {
     background-color: #383838;
     color: #fff;
     padding: 20px 5%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    bottom: 0;
-    margin-left: 0;
+
+}
+footer div h1 {
+    font-size: 1.5rem;
 }
