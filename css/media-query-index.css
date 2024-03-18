@@ -14,6 +14,10 @@
         width: 100vw;
     }
 
+    #img {
+        margin-bottom: -1.1rem;
+    }
+
 
 
     #quem_somos h1 {
@@ -27,7 +31,7 @@
 
     #quem_somos div,
     #texto_home {
-        margin: 1.4rem;
+        margin: 3.5rem;
     }
 
 
@@ -104,6 +108,9 @@
     #home img {
         width: 100vw;
     }
+    #img {
+        margin-bottom: -0.4rem;
+    }
 
 
 
@@ -115,7 +122,7 @@
 
     #quem_somos div,
     #texto_home {
-        margin: 1.4rem;
+        margin: 3.5rem;
     }
 
     #quem_somos p {
@@ -162,9 +169,12 @@
 
     #home>div>img {
         width: 50vw;
-        margin: 1.2rem;
-
     }
+    #quem_somos div, #texto_home {
+        margin-inline: 2.5rem;
+        margin-block: 2rem;
+    }
+   
 
     #home p {
         font-size: 0.9em;
@@ -174,10 +184,7 @@
         margin: 1.2rem;
     }
 
-    #quem_somos div,
-    #texto_home {
-        margin: 1.4rem 0px 1.4rem 1.4rem;
-    }
+   
 
     #quem_somos img {
         display: block;
@@ -196,6 +203,10 @@
     .cards {
         width: 20rem
     }
+    
+    #img {
+        margin-bottom: -0.4rem;
+    }
 
     #projetos h1 {
         font-size: 3em;
@@ -204,6 +215,11 @@
 
     #home p {
         font-size: 1.1em;
+    }
+
+    #quem_somos div, #texto_home {
+        margin-inline: 2rem;
+        margin-block: 2rem;
     }
 
 }
@@ -217,7 +233,7 @@
     #projetos h1 {
         font-size: 2.2em;
     }
-
+  
     #quem_somos p {
         font-size: 1.2em;
         width: 34rem;
