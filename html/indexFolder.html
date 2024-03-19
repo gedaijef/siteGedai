@@ -5,10 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/indexFolder.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="../css/media-query-indexFolder.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fontawesome Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <script src="../js/header.js" defer></script>
     <script src="../js/linksFolders.js" defer></script>
     <title>Folder's</title>
@@ -23,9 +22,9 @@
         <ul id="botoesMenu">
             <a href="index.html">
                 <li>
-                  <p>Home</p>
+                    <p>Home</p>
                 </li>
-              </a>
+            </a>
             <a href="#produtividade">
                 <li>
                     <p>Produtividade</p>
@@ -33,81 +32,46 @@
             </a>
             <a href="#sala">
                 <li>
-                    <p>Auxílio para sala de aula</p>
+                    <p>Educação</p>
                 </li>
             </a>
         </ul>
     </nav>
 
-
-    <main class="cards" id="produtividade">
-        <input type="radio" name="position" />
-        <input type="radio" name="position" checked />
-        <input type="radio" name="position" />
-
+    <main class="wrapper">
+        <i id="left" class="fa-solid fa-greater-than"></i>
         <section class="carousel">
-            <div class="item" onclick="produtividade1()">
-                <div><img src="../img/forma_cima.png"></div>
-                <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span
-                        class="azul">produtividade</span></h2>
-                <div><img src="../img/folder_baixo.png" id="baixo"></div>
-            </div>
-
-            <div class="item" onclick="produtividade2()">
+            <div class="card" onclick="produtividade1()">
                 <div><img src="../img/forma_cima.png"></div>
                 <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span class="azul">produtividade
-                        II</span></h2>
+                        I</span></h2>
                 <div><img src="../img/folder_baixo.png" id="baixo"></div>
             </div>
-
-            <div class="item" onclick="produtividade3()">
+            <div class="card" onclick="produtividade2()">
                 <div><img src="../img/forma_cima.png"></div>
                 <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span class="azul">produtividade
-                        III</span></h2>
+                        II</span>
+                </h2>
                 <div><img src="../img/folder_baixo.png" id="baixo"></div>
             </div>
-
-
-        </section>
-    </main>
-
-    <main class="cards" id="sala">
-
-        <input type="radio" name="position1" />
-        <input type="radio" name="position1" checked />
-        <input type="radio" name="position1" />
-        <section class="carousel">
-            <div class="item" onclick="sala1()">
-                <div><img src="../img/forma_cima.png" alt=""></div>
-                <h2><span class="azul">AIs</span> para auxiliar em <span class="azul">sala de aula</span></h2>
-                <div><img src="../img/folder_baixo.png" alt="" id="baixo"></div>
-
+            <div class="card" onclick="produtividade3()">
+                <div><img src="../img/forma_cima.png"></div>
+                <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span class="azul">produtividade
+                        III</span>
+                </h2>
+                <div><img src="../img/folder_baixo.png" id="baixo"></div>
             </div>
-
-            <div class="item" onclick="sala2()">
-                <div><img src="../img/forma_cima.png" alt=""></div>
-                <h2><span class="azul">AIs</span> para auxiliar em <span class="azul">sala de aula II</span></h2>
-                <div><img src="../img/folder_baixo.png" alt="" id="baixo"></div>
-
-            </div>
-
-            <div class="item" onclick="sala3()">
-                <div><img src="../img/forma_cima.png" alt=""></div>
-                <h2><span class="azul">AIs</span> para auxiliar em <span class="azul">sala de aula III</span></h2>
-                <div><img src="../img/folder_baixo.png" alt="" id="baixo"></div>
-
+            <div class="card" onclick="produtividade4()">
+                <div><img src="../img/forma_cima.png"></div>
+                <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span class="azul">produtividade
+                        IV</span>
+                </h2>
+                <div><img src="../img/folder_baixo.png" id="baixo"></div>
             </div>
         </section>
+        <i id="right" class="fa-solid fa-angle-right"></i>
     </main>
 
-    <footer>
-        <div>
-            <h1>GEDAI</h1>
-            <p>Copyright © 2023 GEDAI. Todos os direitos reservados.</p>
-            <p>📞 +55 (11) 3623-6049</p>
-            <p>📧 gedaijef@email.com</p>
-        </div>
-    </footer>
 </body>
 
 </html>
