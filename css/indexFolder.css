@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 
 * {
@@ -9,9 +9,179 @@
 }
 
 body {
+<<<<<<< HEAD
     min-height: 100vh;
 }
 
+=======
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to bottom, white, #0015893d, white);
+    overflow-x: hidden;
+    
+}
+
+
+
+
+
+
+
+
+/*AJUSTA tamanho
+.wrapper {
+    max-width: 1100px;
+    width: 100%;
+    position: relative;
+}
+
+
+/*FAZ AS SETINHAS APARECEREM E FUNCIONAREM
+.wrapper i {
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    font-size: 1.25rem;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+}
+
+i:active {
+    transform: translateY(-50%) scale(0.85);
+}
+
+i:first-child {
+    left: -22px;
+}
+
+i:last-child {
+    right: -22px;
+}
+
+/* AJUSTA O GRID PARA TAMANHO IDEAL 
+.carousel {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 3) - 12px);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+/*TORNA INFINITO
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel.no-transition {
+    scroll-behavior: auto;
+}
+
+.carousel.dragging {
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+}
+
+.carousel.dragging .card {
+    cursor: grab;
+    user-select: none;
+}
+
+/* .carousel :where(.card) {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  } 
+
+
+.carousel .card {
+    scroll-snap-align: start;
+
+    list-style: none;
+    background: #fff;
+    cursor: pointer;
+    /* flex-direction: column; 
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 900px) {
+    .carousel {
+        grid-auto-columns: calc((100% / 2) - 9px);
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .carousel {
+        grid-auto-columns: 100%;
+    }
+
+}
+
+#img {
+    margin-top: 20px;
+    width: 110px;
+    height: 80px;
+}
+
+h2 {
+    font-style: bold;
+    margin: 25px;
+    text-align: center;
+
+}
+
+.card>div>img {
+    width: 100px;
+    height: 100px;
+}
+
+#baixo {
+    position: relative;
+    display: grid;
+    left: 72%;
+}
+
+
+.azul {
+    color: #3B9AFD;
+}
+
+footer {
+    background-color: #383838;
+    color: #fff;
+    padding: 20px 5%;
+
+}
+
+footer div h1 {
+    font-size: 1.5rem;
+}
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to left top, #031A9A, #8B53FF);
+}
+
+>>>>>>> 92bc68d91046d40803a0ea42b5c16cf250821e3d
 nav {
     background-color: #001489;
     justify-content: space-between;
@@ -75,15 +245,23 @@ a {
 
 /*AJUSTA tamanho*/
 .wrapper {
+<<<<<<< HEAD
     color: white;
     max-width: 1100px;
     width: 100%;
     position: absolute;
     top: 50%;
+=======
+    max-width: 1100px;
+    width: 100%;
+    position: absolute;
+    top: 44%;
+>>>>>>> 92bc68d91046d40803a0ea42b5c16cf250821e3d
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 50px;
 
+<<<<<<< HEAD
 }
 
 /*FAZ AS SETINHAS APARECEREM E FUNCIONAREM*/
@@ -165,6 +343,96 @@ i:last-child {
 
 }
 
+=======
+}
+
+/*FAZ AS SETINHAS APARECEREM E FUNCIONAREM*/
+.wrapper i {
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    font-size: 1.25rem;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+}
+
+i:active {
+    transform: translateY(-50%) scale(0.85);
+}
+
+i:first-child {
+    left: 0px;
+    margin-left: 20px;
+}
+
+i:last-child {
+    right: 0px;
+    margin-right: 20px;
+}
+
+/* AJUSTA O GRID PARA TAMANHO IDEAL */
+.carousel {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 3) - 12px);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+/*TORNA INFINITO*/
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel.no-transition {
+    scroll-behavior: auto;
+}
+
+.carousel.dragging {
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+}
+
+.carousel.dragging .card {
+    cursor: grab;
+    user-select: none;
+}
+
+/* .carousel :where(.card) {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+} */
+
+
+.carousel .card {
+    scroll-snap-align: start;
+
+    list-style: none;
+    background: #fff;
+    cursor: pointer;
+    /* flex-direction: column; */
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 900px) {
+    .carousel {
+        grid-auto-columns: calc((100% / 2) - 9px);
+    }
+
+}
+
+>>>>>>> 92bc68d91046d40803a0ea42b5c16cf250821e3d
 @media screen and (max-width: 600px) {
     .carousel {
         grid-auto-columns: 100%;
@@ -193,9 +461,29 @@ h2 {
 #baixo {
     position: relative;
     display: grid;
+<<<<<<< HEAD
     left: 69%;
+=======
+    left: 72%;
+>>>>>>> 92bc68d91046d40803a0ea42b5c16cf250821e3d
 }
 
 .azul {
     color: #3B9AFD;
 }
+<<<<<<< HEAD
+=======
+
+footer {
+    background-color: #383838;
+    color: #fff;
+    padding: 20px 5%;
+    bottom: 0%;
+    position: absolute;
+    width: 100%;
+}
+
+footer div h1 {
+    font-size: 1.5rem;
+}
+>>>>>>> 92bc68d91046d40803a0ea42b5c16cf250821e3d
