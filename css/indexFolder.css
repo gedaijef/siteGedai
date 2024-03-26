@@ -4,14 +4,14 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     font-family: "Inter", sans-serif;
     user-select: none;
 }
 
 body {
     min-height: 100vh;
-
+    overflow-x: hidden;
 }
 
 nav {
@@ -84,7 +84,7 @@ a {
 
 
 
-section { 
+section {
     color: white;
     justify-content: center;
     align-items: center;
@@ -112,7 +112,7 @@ section {
 
 
 /*FAZ AS SETINHAS APARECEREM E FUNCIONAREM*/
-/* .wrapper i {
+.wrapper i {
     top: 50%;
     height: 50px;
     width: 50px;
@@ -121,34 +121,32 @@ section {
     position: absolute;
     text-align: center;
     line-height: 50px;
-    background: #fff;
+    background: #3B9AFD;
     border-radius: 50%;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
     transform: translateY(-50%);
     transition: transform 0.1s linear;
-} */
+}
 
-/* i:active {
+i:active {
     transform: translateY(-50%) scale(0.85);
 }
 
 i:first-child {
-    left: 0px;
-    margin-left: 20px;
+    left: 15px;
 }
 
 i:last-child {
-    right: 0px;
-    margin-right: 20px;
-} */
+    right: 15px;
+}
 
-
-/*TORNA INFINITO*/
 .carousel::-webkit-scrollbar {
     display: none;
 }
 
-
+.carousel.no-transition {
+    scroll-behavior: auto;
+}
 
 .carousel.dragging {
     scroll-snap-type: none;
@@ -160,6 +158,9 @@ i:last-child {
     user-select: none;
 }
 
+
+
+
 .carousel .card {
     scroll-snap-align: start;
     list-style: none;
@@ -170,7 +171,7 @@ i:last-child {
     overflow: hidden;
 }
 
-/* @media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
     .carousel {
         grid-auto-columns: calc((100% / 2) - 9px);
     }
@@ -183,7 +184,7 @@ i:last-child {
         grid-auto-columns: 100%;
     }
 
-} */
+}
 
 #img {
     margin-top: 20px;
@@ -213,7 +214,7 @@ h2 {
     color: #3B9AFD;
 }
 
-/* @media (max-width: 900px) {
+@media (max-width: 900px) {
     #baixo {
         left: 74%;
     }
@@ -252,11 +253,11 @@ h2 {
     }
 
     ul.responsivo {
-        height: 260px;
+        height: fit-content;
     }
 }
 @media (max-width: 600px) {
     #baixo {
         left: 80%;
     }
-} */
+}

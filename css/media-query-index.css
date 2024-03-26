@@ -26,7 +26,7 @@
     #quem_somos div,
     #texto_home {
         margin: 1.4rem;
-        width: 30rem;
+       
     }
 
 
@@ -121,7 +121,7 @@
     #quem_somos div,
     #texto_home {
         margin: 1.4rem;
-        width: 35rem;
+    
     }
   
 
@@ -241,13 +241,17 @@
         font-size: 1.2em;
         width: 34rem;
     }
+    #quem_somos div, #texto_home {
+        margin: 1.4rem;
+        width: 100vw;
+    }
 
     .card-inner h2 {
         font-size: 2.1em;
     }
 
     .card {
-        width: 23rem;
+        width: 18rem;
     }
 
     .cards {
@@ -256,6 +260,7 @@
 
     .card-inner p {
         font-size: 1.3em;
+        width: 15rem;
     }
 
 
