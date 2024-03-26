@@ -14,8 +14,6 @@
         width: 100vw;
     }
 
-
-
     #quem_somos h1 {
         font-size: 1.7rem;
     }
@@ -28,12 +26,17 @@
     #quem_somos div,
     #texto_home {
         margin: 1.4rem;
+        width: 30rem;
     }
 
 
 
     #quem_somos img {
         display: none;
+    }
+
+    #projetos {
+        margin: 4em;
     }
 
     #projetos h1 {
@@ -50,6 +53,8 @@
     .card-inner p {
         font-size: 1.2em;
         margin-bottom: 1em;
+        width: 20rem;
+        height: 10rem;
     }
 
     nav,
@@ -80,7 +85,7 @@
     }
 
     ul.responsivo {
-        height: 260px;
+        height: fit-content;
     }
 }
 
@@ -116,7 +121,9 @@
     #quem_somos div,
     #texto_home {
         margin: 1.4rem;
+        width: 35rem;
     }
+  
 
     #quem_somos p {
         font-size: 1.2em;
@@ -127,8 +134,19 @@
         display: none;
     }
 
+    #projetos {
+        margin: 4rem;
+    }
+
     #projetos h1 {
         font-size: 2.1em;
+    }
+
+    .card-inner p {
+        font-size: 1.2em;
+        margin-bottom: 1em;
+        width: 20rem;
+        height: 12rem;
     }
 
 
@@ -161,9 +179,13 @@
     }
 
     #home>div>img {
-        width: 50vw;
-        margin: 1.2rem;
+        width: 37vw;
+        /* margin: 1.2rem; */
 
+    }
+
+    #quem_somos p {
+        font-size: 1em;
     }
 
     #home p {
@@ -174,17 +196,17 @@
         margin: 1.2rem;
     }
 
-    #quem_somos div,
+    /* #quem_somos div,
     #texto_home {
         margin: 1.4rem 0px 1.4rem 1.4rem;
-    }
+    } */
 
     #quem_somos img {
         display: block;
     }
 
     .card {
-        width: 35rem;
+        width: fit-content;
     }
 
     .cards {
@@ -193,6 +215,9 @@
 }
 
 @media only screen and (min-width: 992px) {
+    #texto_home {
+        width: fit-content;
+    }
     .cards {
         width: 20rem
     }
