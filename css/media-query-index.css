@@ -196,11 +196,6 @@
         margin: 1.2rem;
     }
 
-    /* #quem_somos div,
-    #texto_home {
-        margin: 1.4rem 0px 1.4rem 1.4rem;
-    } */
-
     #quem_somos img {
         display: block;
     }
@@ -215,9 +210,8 @@
 }
 
 @media only screen and (min-width: 992px) {
-    #texto_home {
-        width: fit-content;
-    }
+
+    
     .cards {
         width: 20rem
     }
