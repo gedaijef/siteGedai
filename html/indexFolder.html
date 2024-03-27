@@ -11,7 +11,6 @@
     <script src="../js/header.js" defer></script>
     <script src="../js/linksFolders.js" defer></script>
     <script src="../js/carousel.js" defer></script>
-    <script src="../js/js.js" defer></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <title>GEDAI</title>
 </head>
@@ -19,8 +18,10 @@
 <body>
     <nav>
         <div>
-            <h1>GEDAI</h1>
+            <h1><a href="indexFolder.html">GEDAI</a></h1>
         </div>
+
+
         <button onclick="abrirMenu()">&#9776;</button>
         <ul id="botoesMenu">
             <a href="index.html">
@@ -45,133 +46,91 @@
 
     <main>
 
-        <div id="caixa">
-            <div class="select">
-                <div id="category-select">
-                    <input type="checkbox" id="options-view-button">
-                    <div id="select-button">
-                        <div id="select-value">Filtro</div>
-                        <div id="chevrons">
-                            <i data-lucide="chevron-down"></i>
-                            <i data-lucide="chevron-up"></i>
-                        </div>
-                    </div>
-                </div>
-                <ul id="options">
-                    <li class="option" onclick="apresentacao()">
-                        <input type="radio" name="category">
-                        <span class="label">Apresentação</span>
-                        <i data-lucide="check"></i>
-                    </li>
-                    <li class="option" onclick="email()">
-                        <input type="radio" name="category">
-                        <span class="label">E-mail</span>
-                        <i data-lucide="check"></i>
-                    </li>
-                    <li class="option" onclick="formula()">
-                        <input type="radio" name="category">
-                        <span class="label">Fórmula</span>
-                        <i data-lucide="check"></i>
-                    </li>
-                    <li class="option" onclick="generativa()">
-                        <input type="radio" name="category"  >
-                        <span class="label">Generativa</span>
-                        <i data-lucide="check"></i>
-                    </li>
-                    <li class="option" onclick="imagem()">
-                        <input type="radio" name="category">
-                        <span class="label">Imagem</span>
-                        <i data-lucide="check"></i>
-                    </li>
-                    <li class="option" onclick="video()">
-                        <input type="radio" name="category">
-                        <span class="label">Vídeo</span>
-                        <i data-lucide="check"></i>
-                    </li>
-                </ul>
-            </div>
-        </div> 
-
-
-
         <section>
 
-            <article class="wrapper">
-                <i id="left_prod" class="fa-solid fa-angle-left"></i>
+            <div id="filtro">
+                <select name="caixa" id="caixa">
+                    <option value="geral" onclick="geral()">Geral</option>
+                    <option value="apresentacao" onclick="apresentacao()">Apresentação</option>
+                    <option value="email" onclick="email()">Email</option>
+                    <option value="formula" onclick="formula()">Fórmula</option>
+                    <option value="generativa" onclick="generativa()">Generativa</option>
+                    <option value="imagem" onclick="imagem()">Imagem</option>
+                    <option value="video" onclick="video()">Vídeo</option>
+                </select>
+            </div>
 
-            
+            <article class="wrapper">
+
                 <div class="carousel">
-                   
+
                     <div class="card" onclick="produtividade1()">
                         <div><img src="../img/forma_cima.png"></div>
-                        <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span class="azul">produtividade
+                        <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span
+                                class="azul">produtividade
                                 I</span></h2>
-                        <div><img src="../img/folder_baixo.png" id="baixo"></div>
+                        <div id="divbaixo"><img src="../img/folder_baixo.png" ></div>
                     </div>
                     <div class="card" onclick="produtividade2()">
                         <div><img src="../img/forma_cima.png"></div>
-                        <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span class="azul">produtividade
+                        <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span
+                                class="azul">produtividade
                                 II</span>
                         </h2>
-                        <div><img src="../img/folder_baixo.png" id="baixo"></div>
+                        <div id="divbaixo"><img src="../img/folder_baixo.png" ></div>
                     </div>
                     <div class="card" onclick="produtividade3()">
                         <div><img src="../img/forma_cima.png"></div>
-                        <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span class="azul">produtividade
+                        <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span
+                                class="azul">produtividade
                                 III</span>
                         </h2>
-                        <div><img src="../img/folder_baixo.png" id="baixo"></div>
+                        <div id="divbaixo"><img src="../img/folder_baixo.png" ></div>
                     </div>
                     <div class="card" onclick="produtividade4()">
                         <div><img src="../img/forma_cima.png"></div>
-                        <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span class="azul">produtividade
+                        <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span
+                                class="azul">produtividade
                                 IV</span>
                         </h2>
-                        <div><img src="../img/folder_baixo.png" id="baixo"></div>
+                        <div id="divbaixo"><img src="../img/folder_baixo.png" ></div>
                     </div>
-                  
+
                 </div>
-                
-                <i id="right_" class="fa-solid fa-angle-right"></i>
+
+
             </article>
 
             <article class="wrapper">
-                <i id="left_sala" class="fa-solid fa-angle-left"></i>
 
-            
+
+
                 <div class="carousel">
-                   
-                    <div class="card" onclick="produtividade1()">
+
+                    <div class="card" onclick="sala1()">
                         <div><img src="../img/forma_cima.png"></div>
-                        <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span class="azul">produtividade
+                        <h2>Ferramentas de <span class="azul">IA</span> para <span class="azul">auxiliar em sala de aula
                                 I</span></h2>
-                        <div><img src="../img/folder_baixo.png" id="baixo"></div>
+                       <div id="divbaixo"><img src="../img/folder_baixo.png" ></div>
                     </div>
-                    <div class="card" onclick="produtividade2()">
+
+                    <div class="card" onclick="sala2()">
                         <div><img src="../img/forma_cima.png"></div>
-                        <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span class="azul">produtividade
-                                II</span>
-                        </h2>
-                        <div><img src="../img/folder_baixo.png" id="baixo"></div>
+                        <h2>Ferramentas de <span class="azul">IA</span> para <span class="azul">auxiliar em sala de aula
+                                II</span></h2>
+                       <div id="divbaixo"><img src="../img/folder_baixo.png" ></div>
                     </div>
-                    <div class="card" onclick="produtividade3()">
+
+
+                    <div class="card" onclick="sala3()">
                         <div><img src="../img/forma_cima.png"></div>
-                        <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span class="azul">produtividade
-                                III</span>
-                        </h2>
-                        <div><img src="../img/folder_baixo.png" id="baixo"></div>
+                        <h2>Ferramentas de <span class="azul">IA</span> para <span class="azul">auxiliar em sala de aula
+                                III</span></h2>
+                       <div id="divbaixo"><img src="../img/folder_baixo.png" ></div>
                     </div>
-                    <div class="card" onclick="produtividade4()">
-                        <div><img src="../img/forma_cima.png"></div>
-                        <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span class="azul">produtividade
-                                IV</span>
-                        </h2>
-                        <div><img src="../img/folder_baixo.png" id="baixo"></div>
-                    </div>
-                  
-                </div>
-                
-                <i id="right" class="fa-solid fa-angle-right"></i>
+                 </div>
+
+
             </article>
         </section>
 

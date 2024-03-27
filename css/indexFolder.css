@@ -21,7 +21,7 @@ nav {
     width: 100%;
 }
 
-nav h1 {
+nav h1 a {
     color: white;
 }
 
@@ -49,19 +49,20 @@ ul {
 }
 
 li {
-    padding: 0 20px;
+    padding-block: 20px;
+    margin-inline: 1rem;
 }
 
-nav h1 {
-
+nav>div>h1>a {
     padding: 10px;
 }
 
 nav a:hover,
-nav button:hover {
+button:hover {
     cursor: pointer;
     opacity: 0.8;
     background-color: rgba(255, 255, 255, 0.2);
+
 }
 
 a {
@@ -73,17 +74,6 @@ a {
     color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 section {
     color: white;
     justify-content: center;
@@ -92,9 +82,32 @@ section {
 
 }
 
+#filtro {
+    display: flex;
+    justify-content: flex-end;
+}
+
+select {
+    margin-top: 3rem;
+    margin-inline: 2rem;
+    appearance: none;
+    border: 0;
+    outline: none;
+    padding: 0 1em;
+    color: #fff;
+    background-color: #4C5AAC;
+    cursor: pointer;
+    position: relative;
+    height: 6vh;
+    width: fit-content;
+    border-radius: 8px;
+}
+
+
 .wrapper {
-    margin-inline: 3rem;
-    margin-block: 5rem;
+    margin-inline: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
 }
 
 /* AJUSTA O GRID PARA TAMANHO IDEAL */
@@ -107,37 +120,6 @@ section {
     gap: 2.5rem;
     scroll-behavior: smooth;
     scrollbar-width: none;
-}
-
-
-
-/*FAZ AS SETINHAS APARECEREM E FUNCIONAREM*/
-.wrapper i {
-    top: 50%;
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
-    font-size: 1.25rem;
-    position: absolute;
-    text-align: center;
-    line-height: 50px;
-    background: #3B9AFD;
-    border-radius: 50%;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
-    transform: translateY(-50%);
-    transition: transform 0.1s linear;
-}
-
-i:active {
-    transform: translateY(-50%) scale(0.85);
-}
-
-i:first-child {
-    left: 15px;
-}
-
-i:last-child {
-    right: 15px;
 }
 
 .carousel::-webkit-scrollbar {
@@ -158,9 +140,6 @@ i:last-child {
     user-select: none;
 }
 
-
-
-
 .carousel .card {
     scroll-snap-align: start;
     list-style: none;
@@ -169,21 +148,6 @@ i:last-child {
     border-radius: 8px;
     background-color: #001489;
     overflow: hidden;
-}
-
-@media screen and (max-width: 900px) {
-    .carousel {
-        grid-auto-columns: calc((100% / 2) - 9px);
-    }
-
-
-}
-
-@media screen and (max-width: 600px) {
-    .carousel {
-        grid-auto-columns: 100%;
-    }
-
 }
 
 #img {
@@ -196,7 +160,6 @@ h2 {
     font-style: bold;
     margin: 25px;
     text-align: center;
-
 }
 
 .card>div>img {
@@ -204,14 +167,29 @@ h2 {
     height: 100px;
 }
 
-#baixo {
+#divbaixo {
+    display: flex;
+    justify-content: flex-end;
+    bottom: -3px;
     position: relative;
-    display: grid;
-    left: 69%;
+
 }
+
 
 .azul {
     color: #3B9AFD;
+}
+
+@media screen and (max-width: 900px) {
+    .carousel {
+        grid-auto-columns: calc((100% / 2) - 9px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .carousel {
+        grid-auto-columns: 100%;
+    }
 }
 
 @media (max-width: 900px) {
@@ -219,10 +197,12 @@ h2 {
         left: 74%;
     }
 }
+
 @media (max-width: 700px) {
     .cards {
         width: 85%;
     }
+
     nav,
     ul {
         flex-direction: column;
@@ -256,6 +236,7 @@ h2 {
         height: fit-content;
     }
 }
+
 @media (max-width: 600px) {
     #baixo {
         left: 80%;
