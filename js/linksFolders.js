@@ -1,5 +1,4 @@
 function produtividade1() {
-    console.log('oi')
     let url = "produtividade1.html";
     window.open(url, "_self");
 }
@@ -9,6 +8,10 @@ function produtividade2() {
  }
 function produtividade3() {
     let url = "produtividade3.html";
+    window.open(url, "_self");
+ }
+ function produtividade4() {
+    let url = "produtividade4.html";
     window.open(url, "_self");
  }
 function sala1() {
