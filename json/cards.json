@@ -32,13 +32,13 @@
   {
     "classe": "Reunião",
     "titulo": "LuzIA",
-    "subtitulo": "Está em uma reunião e não pode ouvir um áudio no momento?",
+    "subtitulo": "Precisa gerar um gráfico, mas não tem tempo?",
     "texto": "Ao encaminhar o áudio para a LuzIA, ela irá transcreve-lo inteiro para que o usuário leia e entenda sem precisar ouvi-lo."
   },
   {
     "classe": "Documento",
     "titulo": "Perplexity",
-    "subtitulo": "Precisa fazer uma pesquisa, mas necessita também das fontes?",
+    "subtitulo": "Precisa fazer uma pesquisa e necessita das fontes?",
     "texto": "O Perplexity mostra aos usuários as fontes de onde foram tiradas, além de mostrar um conteúdo extra, como vídeos e sites."
   },
   {
