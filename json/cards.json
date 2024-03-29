@@ -1,80 +1,116 @@
 [
   {
-    "classe": "visual",
+    "classe": "Visual",
     "titulo": "Bing Chat",
     "subtitulo": "Precisa criar imagens?",
     "texto": "O BING é uma ferramenta de Inteligência Artificial oferece a criação rápida e instantânea de imagens e logotipos por meio de mensagens de texto via chat."
   },
   {
-    "classe": "documento",
+    "classe": "Documento",
     "titulo": "Tome.app",
     "subtitulo": "Quer gerar um documento?",
     "texto": "O TOME é um utensílio que disponibiliza a criação de apresentações de forma eficiente, basta aplicar um texto no chat e ele organizará da melhor forma."
   },
   {
-    "classe": "documento",
+    "classe": "Documento",
     "titulo": "Chat-PDF",
     "subtitulo": "Quer resumir um PDF?",
     "texto": "O CHATPDF pode ler qualquer PDF e responder perguntas relacionadas ao conteúdo. Também sugere perguntas sobre o mesmo, para melhor compreensão."
   },
   {
-    "classe": "reuniao",
+    "classe": "Reunião",
     "titulo": "Supernormal",
     "subtitulo": "Deve gravar uma reunião?",
     "texto": "O Supernormal tem ferramentas de transcrição e gravação de reuniões, geração de atas, notas em vários idiomas e integrações com Slack e Google."
   },
   {
-    "classe": "formula",
+    "classe": "Fórmula",
     "titulo": "Rows",
     "subtitulo": "Precisa gerar um gráfico de última hora mas não tem tempo?",
     "texto": "O Rows faz isso para você de forma rápida a partir de uma frase, podendo também gerar análises dos dados."
   },
   {
-    "classe": "reuniao",
+    "classe": "Reunião",
     "titulo": "LuzIA",
     "subtitulo": "Está em uma reunião e não pode ouvir um áudio no momento?",
     "texto": "Ao encaminhar o áudio para a LuzIA, ela irá transcreve-lo inteiro para que o usuário leia e entenda sem precisar ouvi-lo."
   },
   {
-    "classe": "documento",
+    "classe": "Documento",
     "titulo": "Perplexity",
     "subtitulo": "Precisa fazer uma pesquisa, mas necessita também das fontes?",
     "texto": "O Perplexity mostra aos usuários as fontes de onde foram tiradas, além de mostrar um conteúdo extra, como vídeos e sites."
   },
   {
-    "classe": "generativa",
+    "classe": "Generativa",
     "titulo": "Bard",
     "subtitulo": "Seu projeto requer novas tecnologias?",
     "texto": "Você pode usar o Bard para encontrar tutoriais e documentação que o ajudem a aprender como usar a tecnologia."
   },
   {
-    "classe": "reuniao",
+    "classe": "Reunião",
     "titulo": "Copy.ia",
     "subtitulo": "Terá uma reunião com diversos temas?",
     "texto": "Com o Copy.ai você pode criar uma pauta detalhada, sugerindo tópicos relevantes e permitindo que você os personalize conforme necessário."
   },
   {
-    "classe": "email",
+    "classe": "Email",
     "titulo": "Mailr",
     "subtitulo": "Precisa enviar um e-mail urgente ?",
     "texto": "O Mailr pode otimizar o seu tempo na montagem do texto melhorando a qualidade da escrita, recomendando palavras e expressões."
   },
   {
-    "classe": "visual",
+    "classe": "Visual",
     "titulo": "Runway",
     "subtitulo": "Precisa de um vídeo com critérios específicos nele?",
     "texto": "No Runway, você pode adicionar textos livres ou imagens para criar vídeos, incluindo trilhas sonoras ou narrações."
   },
   {
-    "classe": "email",
+    "classe": "Email",
     "titulo": "Hypertype",
     "subtitulo": "Precisa responder um e-mail com um arquivo excel em anexo?",
     "texto": "O Hypertype pode gerar a resposta para esse e-mail com base em informações importantes presentes na planilha."
   },
   {
-    "classe": "visual",
+    "classe": "Visual",
     "titulo": "Grammarly",
     "subtitulo": "Precisa verificar a gramática de um documento?",
     "texto": "O Grammarly aponta erros e sugere as devidas correções, proporcionando uma experiência aprimorada para o usuário."
+  },
+  {
+    "classe": "Questões",
+    "titulo-card": "ChatGPT Sidebar",
+    "subtitulo-card": "Precisa de ajuda para explicar algo?",
+    "texto-card": "Pesquise utilizando os recursos web da extensão sidebar do ChatGPT, como o traduzir ou explicar, para desenvolver uma outra resposta com seus alunos."
+  },
+  {
+    "classe": "Fórmula",
+    "titulo-card": "Formularizer",
+    "subtitulo-card": "Quer lembrar funcionalidades do Excel?",
+    "texto-card": "Além de sugerir fórmulas ou funções, o Formularizer pode gerar um passo a passo de como realizar determinada tarefa ou ler scripts de VBA e AppScript."
+  },
+  {
+    "classe": "Questões",
+    "titulo-card": "Pruvo",
+    "subtitulo-card": "Precisa criar questões?",
+    "texto-card": "O Pruvo pode gerar uma questão da sua matéria com o assunto desejado ou até mesmo criar uma atividade para seus alunos realizarem no Forms."
+  },
+  {
+    "classe": "Documento",
+    "titulo-card": "Gamma",
+    "subtitulo-card": "Precisa apresentar um conteúdo?",
+    "texto-card": "Ao encaminhar um arquivo ou texto para o Gamma, a ferramenta gera uma apresentação em menos de um minuto, mostrando todo o processo."
+  },
+  {
+    "classe": "Questões",
+    "titulo-card": "Diffit",
+    "subtitulo-card": "Quer treinar para provas?",
+    "texto-card": "Você pode usar o Diffit para gerar questões de compreensão e investigação, estimulando discussão e promovendo o pensamento crítico."
+  },
+  {
+    "classe": "Documento",
+    "titulo-card": "Xmind",
+    "subtitulo-card": "Precisa de conteúdo diferente?",
+    "texto-card": "O Xmind é usado para visualizar ideias de forma criativa que ajudará na compreensão do tema, como criar um mapa mental."
   }
 ]
