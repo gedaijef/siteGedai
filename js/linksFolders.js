@@ -10,6 +10,10 @@ function produtividade3() {
     let url = "produtividade3.html";
     window.open(url, "_self");
 }
+function produtividade4() {
+   let url = "produtividade4.html";
+   window.open(url, "_self");
+}
 function sala1() {
     let url = "sala1.html";
     window.open(url, "_self");
