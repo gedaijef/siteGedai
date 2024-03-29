@@ -87,22 +87,25 @@ section {
     justify-content: flex-end;
 }
 
-select {
+input[type=text] {
     margin-top: 3rem;
     margin-inline: 2rem;
     appearance: none;
-    border: 0;
-    outline: none;
-    padding: 0 1em;
-    color: #fff;
-    background-color: #4C5AAC;
+	border: none;
+	outline: none;
+	border-bottom: .2em solid #001489;
+	background-color: #4C5AAC;
+	border-radius: .2em .2em 0 0;
+	padding: .4em;
     cursor: pointer;
-    position: relative;
+	color: #FFF;
     height: 6vh;
-    width: fit-content;
     border-radius: 8px;
+    
 }
-
+input::placeholder {
+    color: white;
+}
 
 .wrapper {
     margin-inline: 2rem;
@@ -119,6 +122,7 @@ select {
     scroll-snap-type: x mandatory;
     gap: 2.5rem;
     scroll-behavior: smooth;
+    justify-content: center;
     scrollbar-width: none;
 }
 

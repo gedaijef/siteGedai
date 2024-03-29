@@ -133,7 +133,7 @@ main {
     justify-content: space-evenly;
 }
 
-.card {
+section {
     width: 17rem;
     height: 29rem;
     margin-top: 5vh;
@@ -144,7 +144,7 @@ main {
     margin: 2rem;
 }
 
-.card:hover {
+section:hover {
     border: #4C5AAC 1.2px solid;
     transition: .3s;
 }
@@ -198,7 +198,7 @@ main {
         font-size: 1.5em;
     }
 
-    .card {
+    section {
         width: 20rem;
         height: 34rem;
         margin-inline: 2rem;
@@ -217,7 +217,7 @@ main {
         height: 4rem;
     }
 
-    .card {
+    section {
         width: 24rem;
         height: 33rem;
     }
@@ -241,7 +241,7 @@ main {
         height: 4rem;
     }
 
-    .card {
+    section {
         width: 21rem;
         height: 33rem;
     }
@@ -266,7 +266,7 @@ main {
         height: 5rem;
     }
 
-    .card {
+    section {
         width: 28rem;
         height: 35rem;
     }
@@ -296,7 +296,7 @@ main {
         height: 4rem;
     }
 
-    .card {
+    section {
         width: 29rem;
         height: 32rem;
         margin: 1rem;
