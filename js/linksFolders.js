@@ -26,15 +26,3 @@ function sala3() {
     let url = "sala3.html";
     window.open(url, "_self");
 }
-
-
-function limpar() {
-    localStorage.removeItem("filtro")
-}
-function filtro() {
-    const filtro = document.getElementById("input").value.trim()
-    if (filtro.trim() != "") {
-        localStorage.setItem("filtro", filtro)
-    }
-
-}

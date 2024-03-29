@@ -74,12 +74,11 @@ a {
     color: white;
 }
 
-section {
+#pgn {
     color: white;
     justify-content: center;
     align-items: center;
     margin: auto;
-
 }
 
 #filtro {
@@ -91,20 +90,60 @@ input[type=text] {
     margin-top: 3rem;
     margin-inline: 2rem;
     appearance: none;
-	border: none;
-	outline: none;
-	border-bottom: .2em solid #001489;
-	background-color: #4C5AAC;
-	border-radius: .2em .2em 0 0;
-	padding: .4em;
+    border: none;
+    outline: none;
+    border-bottom: .2em solid #001489;
+    background-color: #4C5AAC;
+    border-radius: .2em .2em 0 0;
+    padding: .4em;
     cursor: pointer;
-	color: #FFF;
+    color: #FFF;
     height: 6vh;
     border-radius: 8px;
-    
+
 }
+
 input::placeholder {
     color: white;
+}
+
+#posts-container {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    color: black;
+    margin: 1rem;
+}
+
+.cards {
+    width: 17rem;
+    height: 20rem;
+    margin-top: 5vh;
+    border-radius: 6px;
+    box-shadow: 0px 0px 6px #00000025;
+    border: #e0e0e0 0.2px solid;
+    overflow: hidden;
+}
+.cards:hover {
+    border: #4C5AAC 1.2px solid;
+    transition: .3s;
+}
+.titulo-card {
+
+    font-size: 1.7rem;
+}
+.textos {
+    margin: 15px;
+}
+
+.subtitulo-card {
+    font-size: 1em;
+    height: 4rem;
+    font-weight: normal;
+    margin-block: 1rem;
+    padding: 0;
+    text-align: left;
+    margin-inline: 0;
 }
 
 .wrapper {
