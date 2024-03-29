@@ -1,82 +1,80 @@
-{
-  "posts": [
-    {
-      "classe": "visual",
-      "titulo-card": "Bing Chat",
-      "subtitulo-card": "Precisa criar imagens?",
-      "texto-card": "O BING é uma ferramenta de Inteligência Artificial oferece a criação rápida e instantânea de imagens e logotipos por meio de mensagens de texto via chat."
-    },
-    {
-      "classe": "documento",
-      "titulo-card": "Tome.app",
-      "subtitulo-card": "Quer gerar um documento?",
-      "texto-card": "O TOME é um utensílio que disponibiliza a criação de apresentações de forma eficiente, basta aplicar um texto no chat e ele organizará da melhor forma."
-    },
-    {
-      "classe": "documento",
-      "titulo-card": "Chat-PDF",
-      "subtitulo-card": "Quer resumir um PDF?",
-      "texto-card": "O CHATPDF pode ler qualquer PDF e responder perguntas relacionadas ao conteúdo. Também sugere perguntas sobre o mesmo, para melhor compreensão."
-    },
-    {
-      "classe": "reuniao",
-      "titulo-card": "Supernormal",
-      "subtitulo-card": "Deve gravar uma reunião?",
-      "texto-card": "O Supernormal tem ferramentas de transcrição e gravação de reuniões, geração de atas, notas em vários idiomas e integrações com Slack e Google."
-    },
-    {
-      "classe": "formula",
-      "titulo-card": "Rows",
-      "subtitulo-card": "Precisa gerar um gráfico de última hora mas não tem tempo?",
-      "texto-card": "O Rows faz isso para você de forma rápida a partir de uma frase, podendo também gerar análises dos dados."
-    },
-    {
-      "classe": "reuniao",
-      "titulo-card": "LuzIA",
-      "subtitulo-card": "Está em uma reunião e não pode ouvir um áudio no momento?",
-      "texto-card": "Ao encaminhar o áudio para a LuzIA, ela irá transcreve-lo inteiro para que o usuário leia e entenda sem precisar ouvi-lo."
-    },
-    {
-      "classe": "documento",
-      "titulo-card": "Perplexity",
-      "subtitulo-card": "Precisa fazer uma pesquisa, mas necessita também das fontes?",
-      "texto-card": "O Perplexity mostra aos usuários as fontes de onde foram tiradas, além de mostrar um conteúdo extra, como vídeos e sites."
-    },
-    {
-      "classe": "generativa",
-      "titulo-card": "Bard",
-      "subtitulo-card": "Seu projeto requer novas tecnologias?",
-      "texto-card": "Você pode usar o Bard para encontrar tutoriais e documentação que o ajudem a aprender como usar a tecnologia."
-    },
-    {
-      "classe": "reuniao",
-      "titulo-card": "Copy.ia",
-      "subtitulo-card": "Terá uma reunião com diversos temas?",
-      "texto-card": "Com o Copy.ai você pode criar uma pauta detalhada, sugerindo tópicos relevantes e permitindo que você os personalize conforme necessário."
-    },
-    {
-      "classe": "email",
-      "titulo-card": "Mailr",
-      "subtitulo-card": "Precisa enviar um e-mail urgente ?",
-      "texto-card": "O Mailr pode otimizar o seu tempo na montagem do texto melhorando a qualidade da escrita, recomendando palavras e expressões."
-    },
-    {
-      "classe": "visual",
-      "titulo-card": "Runway",
-      "subtitulo-card": "Precisa de um vídeo com critérios específicos nele?",
-      "texto-card": "No Runway, você pode adicionar textos livres ou imagens para criar vídeos, incluindo trilhas sonoras ou narrações."
-    },
-    {
-      "classe": "email",
-      "titulo-card": "Hypertype",
-      "subtitulo-card": "Precisa responder um e-mail com um arquivo excel em anexo?",
-      "texto-card": "O Hypertype pode gerar a resposta para esse e-mail com base em informações importantes presentes na planilha."
-    },
-    {
-      "classe": "visual",
-      "titulo-card": "Grammarly",
-      "subtitulo-card": "Precisa verificar a gramática de um documento?",
-      "texto-card": "O Grammarly aponta erros e sugere as devidas correções, proporcionando uma experiência aprimorada para o usuário."
-    }
-  ]
-}
+[
+  {
+    "classe": "visual",
+    "titulo-card": "Bing Chat",
+    "subtitulo-card": "Precisa criar imagens?",
+    "texto-card": "O BING é uma ferramenta de Inteligência Artificial oferece a criação rápida e instantânea de imagens e logotipos por meio de mensagens de texto via chat."
+  },
+  {
+    "classe": "documento",
+    "titulo-card": "Tome.app",
+    "subtitulo-card": "Quer gerar um documento?",
+    "texto-card": "O TOME é um utensílio que disponibiliza a criação de apresentações de forma eficiente, basta aplicar um texto no chat e ele organizará da melhor forma."
+  },
+  {
+    "classe": "documento",
+    "titulo-card": "Chat-PDF",
+    "subtitulo-card": "Quer resumir um PDF?",
+    "texto-card": "O CHATPDF pode ler qualquer PDF e responder perguntas relacionadas ao conteúdo. Também sugere perguntas sobre o mesmo, para melhor compreensão."
+  },
+  {
+    "classe": "reuniao",
+    "titulo-card": "Supernormal",
+    "subtitulo-card": "Deve gravar uma reunião?",
+    "texto-card": "O Supernormal tem ferramentas de transcrição e gravação de reuniões, geração de atas, notas em vários idiomas e integrações com Slack e Google."
+  },
+  {
+    "classe": "formula",
+    "titulo-card": "Rows",
+    "subtitulo-card": "Precisa gerar um gráfico de última hora mas não tem tempo?",
+    "texto-card": "O Rows faz isso para você de forma rápida a partir de uma frase, podendo também gerar análises dos dados."
+  },
+  {
+    "classe": "reuniao",
+    "titulo-card": "LuzIA",
+    "subtitulo-card": "Está em uma reunião e não pode ouvir um áudio no momento?",
+    "texto-card": "Ao encaminhar o áudio para a LuzIA, ela irá transcreve-lo inteiro para que o usuário leia e entenda sem precisar ouvi-lo."
+  },
+  {
+    "classe": "documento",
+    "titulo-card": "Perplexity",
+    "subtitulo-card": "Precisa fazer uma pesquisa, mas necessita também das fontes?",
+    "texto-card": "O Perplexity mostra aos usuários as fontes de onde foram tiradas, além de mostrar um conteúdo extra, como vídeos e sites."
+  },
+  {
+    "classe": "generativa",
+    "titulo-card": "Bard",
+    "subtitulo-card": "Seu projeto requer novas tecnologias?",
+    "texto-card": "Você pode usar o Bard para encontrar tutoriais e documentação que o ajudem a aprender como usar a tecnologia."
+  },
+  {
+    "classe": "reuniao",
+    "titulo-card": "Copy.ia",
+    "subtitulo-card": "Terá uma reunião com diversos temas?",
+    "texto-card": "Com o Copy.ai você pode criar uma pauta detalhada, sugerindo tópicos relevantes e permitindo que você os personalize conforme necessário."
+  },
+  {
+    "classe": "email",
+    "titulo-card": "Mailr",
+    "subtitulo-card": "Precisa enviar um e-mail urgente ?",
+    "texto-card": "O Mailr pode otimizar o seu tempo na montagem do texto melhorando a qualidade da escrita, recomendando palavras e expressões."
+  },
+  {
+    "classe": "visual",
+    "titulo-card": "Runway",
+    "subtitulo-card": "Precisa de um vídeo com critérios específicos nele?",
+    "texto-card": "No Runway, você pode adicionar textos livres ou imagens para criar vídeos, incluindo trilhas sonoras ou narrações."
+  },
+  {
+    "classe": "email",
+    "titulo-card": "Hypertype",
+    "subtitulo-card": "Precisa responder um e-mail com um arquivo excel em anexo?",
+    "texto-card": "O Hypertype pode gerar a resposta para esse e-mail com base em informações importantes presentes na planilha."
+  },
+  {
+    "classe": "visual",
+    "titulo-card": "Grammarly",
+    "subtitulo-card": "Precisa verificar a gramática de um documento?",
+    "texto-card": "O Grammarly aponta erros e sugere as devidas correções, proporcionando uma experiência aprimorada para o usuário."
+  }
+]
