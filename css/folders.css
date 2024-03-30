@@ -142,6 +142,7 @@ section {
     border: #e0e0e0 0.2px solid;
     overflow: hidden;
     margin: 2rem;
+    position: relative;
 }
 
 section:hover {
@@ -169,13 +170,10 @@ section:hover {
     width: 100%;
 }
 
-.titulo-card:hover {
-    cursor: pointer;
-}
-
 .subtitulo-card {
     margin-bottom: 1rem;
     font-size: 1.1em;
+
 }
 
 #rodape_img {
@@ -183,9 +181,31 @@ section:hover {
     width: 245px;
 }
 
+#texto {
+    height: 12rem;
+}
+
 .texto-card {
     line-height: 24px;
     font-size: 1em;
+}
+#link {
+    margin-inline: 15px;
+    display: flex;
+    position: absolute;
+    bottom: 6px;
+    border-radius: 5px;
+    background: #3B9AFD;
+}
+
+#acessarFolders {
+    color: white;
+    padding: 5px 10px;
+    transition: .3s;
+    padding: 5px 10px;
+}
+#link:hover {
+    background-color: #4C5AAC;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -200,13 +220,17 @@ section:hover {
 
     section {
         width: 20rem;
-        height: 34rem;
+        height: 35rem;
         margin-inline: 2rem;
     }
 
     .subtitulo-card {
         margin-bottom: 1rem;
         font-size: 1.3em;
+    }
+
+    #acessarFolders {
+        font-size: 1.1rem;
     }
 
 }
@@ -219,7 +243,7 @@ section:hover {
 
     section {
         width: 24rem;
-        height: 33rem;
+        height: 35rem;
     }
 
     .titulo-card {
@@ -233,6 +257,11 @@ section:hover {
     .texto-card {
         font-size: 1.1em;
     }
+
+    #acessarFolders {
+        font-size: 1.1rem;
+    }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -243,7 +272,7 @@ section:hover {
 
     section {
         width: 21rem;
-        height: 33rem;
+        height: 35rem;
     }
 
     .titulo-card {
@@ -255,8 +284,14 @@ section:hover {
     }
 
     .texto-card {
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
+
+    #acessarFolders {
+        font-size: 1.1rem;
+    }
+
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -268,7 +303,7 @@ section:hover {
 
     section {
         width: 28rem;
-        height: 35rem;
+        height: 40rem;
     }
 
     .titulo-card {
@@ -282,6 +317,11 @@ section:hover {
     .texto-card {
         font-size: 1.2em;
     }
+
+    #texto {
+        height: 10rem;
+    }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -297,8 +337,8 @@ section:hover {
     }
 
     section {
-        width: 29rem;
-        height: 32rem;
+        width: 20rem;
+        height: 33rem;
         margin: 1rem;
     }
 
@@ -309,12 +349,14 @@ section:hover {
     .subtitulo-card {
         font-size: 1.1em;
         margin-bottom: 1.2rem;
-
-
     }
 
     .texto-card {
-        font-size: 1.1em;
+        font-size: 0.9em;
+    }
+
+    #acessarFolders {
+        font-size: 1rem;
     }
 
 }
