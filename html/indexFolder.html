@@ -41,105 +41,83 @@
         </ul>
     </nav>
 
-    
+    <main id="pgn">
 
-    <main>
+        <article id="filtro">
+            <input type="text" id="input" list="opcoes" placeholder="Filtro" onkeyup="filtro()">
 
-        <section id="pgn">
+            <datalist id="opcoes">
+                <option id="documento">Documento</option>
+                <option id="email">Email</option>
+                <option id="formula">Fórmula</option>
+                <option id="generativa">Generativa</option>
+                <option id="questoes">Questões</option>
+                <option id="reuniao">Reunião</option>
+                <option id="visual">Visual</option>
+            </datalist>
+        </article>
 
-            <div id="filtro">
-                <input type="text" id="input" list="opcoes" placeholder="Filtro" onchange="filtro()">
+        <section id="posts-container"></section>
 
-                <datalist id="opcoes">
-                    <option id="documento">Documento</option>
-                    <option id="email">Email</option>
-                    <option id="formula">Fórmula</option>
-                    <option id="generativa">Generativa</option>
-                    <option id="questoes">Questões</option>
-                    <option id="reuniao">Reunião</option>
-                    <option id="visual">Visual</option>
-                </datalist>
+        <section class="wrapper">
+            <i id="left" class="fa-solid fa-angle-left"></i>
+            <div class="carousel">
+
+                <div class="card" onclick="produtividade1()">
+                    <div><img src="../img/forma_cima.png"></div>
+                    <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span class="azul">produtividade
+                            I</span></h2>
+                    <div id="divbaixo"><img src="../img/folder_baixo.png"></div>
+                </div>
+
+
+                <div class="card" onclick="produtividade2()">
+                    <div><img src="../img/forma_cima.png"></div>
+                    <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span class="azul">produtividade
+                            II</span>
+                    </h2>
+                    <div id="divbaixo"><img src="../img/folder_baixo.png"></div>
+                </div>
+
+                <div class="card" onclick="produtividade3()">
+                    <div><img src="../img/forma_cima.png"></div>
+                    <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span class="azul">produtividade
+                            III</span>
+                    </h2>
+                    <div id="divbaixo"><img src="../img/folder_baixo.png"></div>
+                </div>
+                <div class="card" onclick="produtividade4()">
+                    <div><img src="../img/forma_cima.png"></div>
+                    <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span class="azul">produtividade
+                            IV</span>
+                    </h2>
+                    <div id="divbaixo"><img src="../img/folder_baixo.png"></div>
+                </div>
             </div>
-
-            <section id="posts-container"></section>
-
-            <article class="wrapper">
-
-                <div class="carousel">
-
-                    <div class="card" onclick="produtividade1()">
-                        <div><img src="../img/forma_cima.png"></div>
-                        <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span
-                                class="azul">produtividade
-                                I</span></h2>
-                        <div id="divbaixo"><img src="../img/folder_baixo.png"></div>
-                    </div>
-
-                    
-                    <div class="card" onclick="produtividade2()">
-                        <div><img src="../img/forma_cima.png"></div>
-                        <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span
-                                class="azul">produtividade
-                                II</span>
-                        </h2>
-                        <div id="divbaixo"><img src="../img/folder_baixo.png"></div>
-                    </div>
-                    <div class="card" onclick="produtividade3()">
-                        <div><img src="../img/forma_cima.png"></div>
-                        <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span
-                                class="azul">produtividade
-                                III</span>
-                        </h2>
-                        <div id="divbaixo"><img src="../img/folder_baixo.png"></div>
-                    </div>
-                    <div class="card" onclick="produtividade4()">
-                        <div><img src="../img/forma_cima.png"></div>
-                        <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span
-                                class="azul">produtividade
-                                IV</span>
-                        </h2>
-                        <div id="divbaixo"><img src="../img/folder_baixo.png"></div>
-                    </div>
-
-                </div>
-
-
-            </article>
-
-            <article class="wrapper">
-
-
-
-                <div class="carousel">
-
-                    <div class="card" onclick="sala1()">
-                        <div><img src="../img/forma_cima.png"></div>
-                        <h2>Ferramentas de <span class="azul">IA</span> para <span class="azul">auxiliar em sala de aula
-                                I</span></h2>
-                        <div id="divbaixo"><img src="../img/folder_baixo.png"></div>
-                    </div>
-
-                    <div class="card" onclick="sala2()">
-                        <div><img src="../img/forma_cima.png"></div>
-                        <h2>Ferramentas de <span class="azul">IA</span> para <span class="azul">auxiliar em sala de aula
-                                II</span></h2>
-                        <div id="divbaixo"><img src="../img/folder_baixo.png"></div>
-                    </div>
-
-
-                    <!-- <div class="card" onclick="sala3()">
-                        <div><img src="../img/forma_cima.png"></div>
-                        <h2>Ferramentas de <span class="azul">IA</span> para <span class="azul">auxiliar em sala de aula
-                                III</span></h2>
-                        <div id="divbaixo"><img src="../img/folder_baixo.png"></div>
-                    </div> -->
-                </div>
-
-
-            </article>
-
+            <i id="right" class="fa-solid fa-angle-right"></i>
         </section>
 
+        <section class="wrapper">
+                
+            <div class="carousel" id="sala">
+
+                <div class="card" onclick="sala1()">
+                    <div><img src="../img/forma_cima.png"></div>
+                    <h2>Ferramentas de <span class="azul">IA</span> para <span class="azul">auxiliar em sala de aula
+                            I</span></h2>
+                    <div id="divbaixo"><img src="../img/folder_baixo.png"></div>
+                </div>
+
+                <div class="card" onclick="sala2()">
+                    <div><img src="../img/forma_cima.png"></div>
+                    <h2>Ferramentas de <span class="azul">IA</span> para <span class="azul">auxiliar em sala de aula
+                            II</span></h2>
+                    <div id="divbaixo"><img src="../img/folder_baixo.png"></div>
+                </div>
+
+            </div>
+            
+        </section>
 
     </main>
 

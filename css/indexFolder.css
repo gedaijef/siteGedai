@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 
 * {
@@ -6,12 +7,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
-    user-select: none;
 }
 
 body {
     min-height: 100vh;
     overflow-x: hidden;
+    
 }
 
 nav {
@@ -64,10 +65,8 @@ button:hover {
     background-color: rgba(255, 255, 255, 0.2);
 
 }
-
 a {
     text-decoration: none;
-    color: black;
 }
 
 #botoesMenu a {
@@ -100,7 +99,6 @@ input[type=text] {
     color: #FFF;
     height: 6vh;
     border-radius: 8px;
-
 }
 
 input::placeholder {
@@ -111,7 +109,6 @@ input::placeholder {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    color: black;
     margin: 1rem;
 }
 
@@ -120,18 +117,16 @@ input::placeholder {
     height: 20rem;
     margin-top: 5vh;
     border-radius: 6px;
+    background-color: #4C5AAC;
     box-shadow: 0px 0px 6px #00000025;
-    border: #e0e0e0 0.2px solid;
+    border-bottom: .2em solid #001489;
     overflow: hidden;
 }
-.cards:hover {
-    border: #4C5AAC 1.2px solid;
-    transition: .3s;
-}
-.titulo-card {
 
+.titulo-card {
     font-size: 1.7rem;
 }
+
 .textos {
     margin: 15px;
 }
@@ -152,6 +147,39 @@ input::placeholder {
     margin-bottom: 5rem;
 }
 
+/*FAZ AS SETINHAS APARECEREM E FUNCIONAREM*/
+.wrapper i {
+    top: 60%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    font-size: 1.25rem;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    background: #3B9AFD;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+}
+
+i:active {
+    transform: translateY(-50%) scale(0.85);
+}
+
+i:first-child {
+    left: 0px;
+}
+
+i:last-child {
+    right: 0px;
+}
+
+#sala {
+    justify-content: center;
+}
+
 /* AJUSTA O GRID PARA TAMANHO IDEAL */
 .carousel {
     display: grid;
@@ -159,12 +187,12 @@ input::placeholder {
     grid-auto-columns: calc((100% / 3) - 12px);
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    gap: 2.5rem;
+    gap: 16px;
     scroll-behavior: smooth;
-    justify-content: center;
     scrollbar-width: none;
 }
 
+/*TORNA INFINITO*/
 .carousel::-webkit-scrollbar {
     display: none;
 }
@@ -193,6 +221,8 @@ input::placeholder {
     overflow: hidden;
 }
 
+
+
 #img {
     margin-top: 20px;
     width: 110px;
@@ -215,7 +245,6 @@ h2 {
     justify-content: flex-end;
     bottom: -3px;
     position: relative;
-
 }
 
 
@@ -223,24 +252,21 @@ h2 {
     color: #3B9AFD;
 }
 
+
 @media screen and (max-width: 900px) {
     .carousel {
         grid-auto-columns: calc((100% / 2) - 9px);
     }
+   
+
 }
 
 @media screen and (max-width: 600px) {
     .carousel {
         grid-auto-columns: 100%;
     }
-}
 
-@media (max-width: 900px) {
-    #baixo {
-        left: 74%;
-    }
 }
-
 @media (max-width: 700px) {
     .cards {
         width: 85%;
@@ -277,11 +303,5 @@ h2 {
 
     ul.responsivo {
         height: fit-content;
-    }
-}
-
-@media (max-width: 600px) {
-    #baixo {
-        left: 80%;
     }
 }

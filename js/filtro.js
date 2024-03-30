@@ -3,48 +3,21 @@ const url = "https://gedaijef.github.io/siteGedai/json/cards.json";
 const postsContainer = document.querySelector("#posts-container");
 postsContainer.style.display = 'none'
 
-
-// Load post
-const urlSearchParams = new URLSearchParams(window.location.search);
-const postId = urlSearchParams.get("id");
-
-// Get all posts
-async function getAllPosts() {
-    const response = await fetch(url);
-    console.log(response);
-    const data = await response.json(); //recebendo tudo em array
-    console.log(data);
-
-
-    data.map((post) => {
-        const div = document.createElement("div");
-        const title = document.createElement("h2");
-
-        const link = document.createElement("a");
-
-        title.innerText = post.titulo;
-
-        div.appendChild(title);
-
-        postsContainer.appendChild(div);
-    });
-}
-//getAllPosts();
-
-
-
 async function filtro() {
+    postsContainer.innerHTML = "";
     const filtro = document.getElementById("input").value.trim()
 
     const response = await fetch(url);
-    //console.log(response);
     const data = await response.json(); //recebendo tudo em array
-    //console.log(data);
 
+    console.log(filtro)
 
     data.map((post) => {
         const wrapper = document.querySelectorAll(".wrapper")
         const classe = post.classe
+
+        // Limpeza antes da nova filtragem
+        
 
         if (filtro == classe) {
             for (let i = 0; i < wrapper.length; i++) {
@@ -63,7 +36,7 @@ async function filtro() {
             const h1 = document.createElement("h1")
             h1.classList.add("titulo-card")
             h1.innerText = post.titulo
-        
+
             const divSubtitulo = document.createElement("div")
             const h2 = document.createElement("h2")
             h2.classList.add("subtitulo-card")
@@ -81,7 +54,7 @@ async function filtro() {
             divTextos.appendChild(divTitulo)
             divTextos.appendChild(divSubtitulo)
             divTextos.appendChild(divTexto)
-           
+
             article.appendChild(divTextos)
 
             postsContainer.appendChild(article);
@@ -94,15 +67,5 @@ async function filtro() {
                 postsContainer.style.display = 'none'
             }
         }
-        // const div = document.createElement("div");
-        // const title = document.createElement("h2");
-
-        // const link = document.createElement("a");
-
-        // title.innerText = post.titulo;
-
-        // div.appendChild(title);
-
-        // postsContainer.appendChild(div);
     });
 }
