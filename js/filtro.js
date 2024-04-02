@@ -19,7 +19,7 @@ async function filtro() {
         const classe = post.classe
 
         // Limpeza antes da nova filtragem
-        
+
 
         if (filtro == classe) {
             for (let i = 0; i < wrapper.length; i++) {
@@ -30,38 +30,56 @@ async function filtro() {
             postsContainer.style.display = 'flex'
 
             const article = document.createElement("article")
-            article.classList.add("cards")
+            article.classList.add("container")
+
+            const divImg = document.createElement("div")
+            divImg.classList.add("img")
+
+            const tagImg = document.createElement("img")
+            tagImg.classList.add("banner")
+            tagImg.setAttribute("src", post.Imagem)
 
             const divTextos = document.createElement("div")
             divTextos.classList.add("textos")
 
-            const divTitulo = document.createElement("div")
             const h1 = document.createElement("h1")
             h1.classList.add("titulo-card")
             h1.innerText = post.titulo
 
-            const divSubtitulo = document.createElement("div")
             const h2 = document.createElement("h2")
             h2.classList.add("subtitulo-card")
             h2.innerText = post.subtitulo
 
-            const divTexto = document.createElement("div")
             const p = document.createElement("p")
             p.classList.add("texto-card")
             p.innerText = post.texto
 
+            const divContainer = document.createElement("div")
+            divContainer.classList.add("container-link")
 
-            divTexto.appendChild(p)
-            divSubtitulo.appendChild(h2)
-            divTitulo.appendChild(h1)
-            divTextos.appendChild(divTitulo)
-            divTextos.appendChild(divSubtitulo)
-            divTextos.appendChild(divTexto)
+            const divLink = document.createElement("div")
+            divLink.setAttribute("id", "link")
 
+            const link = document.createElement("a")
+            link.setAttribute("id", "acessarFolders")
+            link.setAttribute("href", post.link)
+            link.innerText = "Acesse"
+
+
+            divLink.appendChild(link)
+            divContainer.appendChild(divLink)
+
+            divTextos.appendChild(h1)
+            divTextos.appendChild(h2)
+            divTextos.appendChild(p)
+
+            divImg.appendChild(tagImg)
+
+            article.appendChild(divImg)
             article.appendChild(divTextos)
+            article.appendChild(divContainer)
 
-            postsContainer.appendChild(article);
-            console.log(p)
+            postsContainer.appendChild(article)
 
         }
         else if (filtro == "") {

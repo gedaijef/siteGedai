@@ -24,6 +24,7 @@ nav {
     color: black;
     margin-left: 2rem;
 }
+
 nav a {
     color: white;
     list-style: none;
@@ -49,6 +50,7 @@ nav a:hover {
     background-color: rgba(255, 255, 255, 0.2);
 
 }
+
 a {
     text-decoration: none;
 }
@@ -90,40 +92,89 @@ input::placeholder {
 }
 
 #posts-container {
+    color: black;
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    margin: 1rem;
 }
 
-.cards {
+.container {
     width: 17rem;
-    height: 20rem;
+    height: 29rem;
     margin-top: 5vh;
     border-radius: 6px;
-    background-color: #4C5AAC;
     box-shadow: 0px 0px 6px #00000025;
-    border-bottom: .2em solid #001489;
+    border: #e0e0e0 0.2px solid;
     overflow: hidden;
+    margin: 2rem;
+    position: relative;
+}
+.container:hover {
+    border: #4C5AAC 1.2px solid;
+    transition: .3s;
+}
+.img {
+    border-top: 0.5rem solid #4C5AAC;
 }
 
-.titulo-card {
-    font-size: 1.7rem;
+.banner {
+    width: 100%;
+    height: 100%;
 }
+
 
 .textos {
     margin: 15px;
 }
 
-.subtitulo-card {
-    font-size: 1em;
-    height: 4rem;
-    font-weight: normal;
-    margin-block: 1rem;
-    padding: 0;
-    text-align: left;
-    margin-inline: 0;
+.titulo-card {
+    margin-bottom: 0.8rem;
+    font-size: 1.7em;
+    width: 100%;
 }
+
+.subtitulo-card {
+    margin-bottom: 1rem;
+    font-size: 1.1em;
+
+}
+
+.texto-card {
+    line-height: 24px;
+    font-size: 1em;
+}
+
+.container-link {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+#link {
+    width: 90%;
+    height: 30px;
+    height: fit-content;
+    position: absolute;
+    bottom: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #3B9AFD;
+}
+
+#acessarFolders {
+    color: white;
+    padding: 5px 10px;
+    transition: .3s;
+    padding: 5px 10px;
+    display: block;
+}
+
+#link:hover {
+    background-color: #4C5AAC;
+}
+
+
 
 .wrapper {
     margin-inline: 2rem;
@@ -134,7 +185,7 @@ input::placeholder {
 /*FAZ AS SETINHAS APARECEREM E FUNCIONAREM*/
 #left,
 #right {
-    top: 67%;
+
     height: 50px;
     width: 50px;
     cursor: pointer;
@@ -178,17 +229,6 @@ i:last-child {
     transition: transform 0.1s linear;
 }
 
-i:active {
-    transform: translateY(-50%) scale(0.85);
-}
-
-i:first-child {
-    left: 0px;
-}
-
-i:last-child {
-    right: 0px;
-}
 #sala {
     justify-content: center;
 }
@@ -233,15 +273,13 @@ i:last-child {
     overflow: hidden;
 }
 
-
-
 #img {
     margin-top: 20px;
     width: 110px;
     height: 80px;
 }
 
-h2 {
+.card h2 {
     font-style: bold;
     margin: 25px;
     text-align: center;
@@ -263,7 +301,7 @@ h2 {
     position: relative;
 }
 
-#link {
+.link {
     display: grid;
 }
 
@@ -274,6 +312,7 @@ h2 {
     background: #3B9AFD;
     padding: 2px 10px;
     border-radius: 5px;
+    font-size: 1.3rem;
 }
 
 #acessarFolders:hover {
@@ -283,20 +322,4 @@ h2 {
 
 .azul {
     color: #3B9AFD;
-}
-
-
-@media screen and (max-width: 900px) {
-    .carousel {
-        grid-auto-columns: calc((100% / 2) - 9px);
-    }
-
-
-}
-
-@media screen and (max-width: 600px) {
-    .carousel {
-        grid-auto-columns: 100%;
-    }
-
 }

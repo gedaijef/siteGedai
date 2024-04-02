@@ -168,10 +168,6 @@ section:hover {
     width: 245px;
 }
 
-#texto {
-    height: 12rem;
-}
-
 .texto-card {
     line-height: 24px;
     font-size: 1em;
@@ -312,10 +308,6 @@ section:hover {
 
     .texto-card {
         font-size: 1.2em;
-    }
-
-    #texto {
-        height: 10rem;
     }
 
 }
