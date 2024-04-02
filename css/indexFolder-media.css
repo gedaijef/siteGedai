@@ -18,6 +18,9 @@
     #left, #right {
         top: 23rem;
     }
+    #left_sala, #right_sala {
+        top: 53rem;
+    }
     .carousel {
         grid-auto-columns: 100%;
     }
@@ -51,6 +54,9 @@
     }
     #left, #right {
         top: 25rem;
+    }
+    #left_sala, #right_sala {
+        top: 55rem;
     }
 
     .container {
@@ -128,6 +134,10 @@
 
     #left, #right {
         top: 27rem;
+    }
+
+    #left_sala, #right_sala {
+        top: 57rem;
     }
     .container {
         width: 20rem;

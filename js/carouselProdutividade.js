@@ -66,7 +66,7 @@ const infiniteScroll = () => {
 
     // Clear existing timeout & start autoplay if mouse is not hovering over carousel
     clearTimeout(timeoutId);
-    if(!wrapper.matches(":hover")) autoPlay();
+    if(!wrapperProd.matches(":hover")) autoPlay();
 }
 
 const autoPlay = () => {

@@ -185,7 +185,6 @@ input::placeholder {
 /*FAZ AS SETINHAS APARECEREM E FUNCIONAREM*/
 #left,
 #right {
-
     height: 50px;
     width: 50px;
     cursor: pointer;
@@ -214,7 +213,6 @@ i:last-child {
 
 #left_sala,
 #right_sala {
-    top: 130%;
     height: 50px;
     width: 50px;
     cursor: pointer;
