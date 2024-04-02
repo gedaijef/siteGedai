@@ -3,6 +3,8 @@ const url = "https://gedaijef.github.io/siteGedai/json/cards.json";
 const postsContainer = document.querySelector("#posts-container");
 postsContainer.style.display = 'none'
 
+const title = document.querySelectorAll('.title')
+
 async function filtro() {
     postsContainer.innerHTML = "";
     const filtro = document.getElementById("input").value.trim()
@@ -22,6 +24,7 @@ async function filtro() {
         if (filtro == classe) {
             for (let i = 0; i < wrapper.length; i++) {
                 wrapper[i].style.display = 'none'
+                title[i].style.display = 'none'
             }
 
             postsContainer.style.display = 'flex'
@@ -64,6 +67,7 @@ async function filtro() {
         else if (filtro == "") {
             for (let i = 0; i < wrapper.length; i++) {
                 wrapper[i].style.display = 'block'
+                title[i].style.display = 'block'
                 postsContainer.style.display = 'none'
             }
         }

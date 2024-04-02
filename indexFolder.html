@@ -5,17 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    <link rel="stylesheet" href="../css/indexFolder.css">
-    <script src="../js/carousel.js" defer></script>
+    <link rel="stylesheet" href="css/indexFolder.css">
+    <script src="js/carousel.js" defer></script>
     <script src="https://unpkg.com/lucide@latest"></script>
-    <script src="../js/filtro.js" defer></script>
+    <script src="js/linksCard.js" defer></script>
+    <script src="js/filtro.js" defer></script>
     <title>GEDAI</title>
 </head>
 
 <body>
     <nav>
         <div>
-            <h1><a href="indexFolder.html">GEDAI</a></h1>
+            <h1><a href="index.html">GEDAI</a></h1>
         </div>
         <div>
             <a href="index.html">
@@ -32,59 +33,60 @@
             <input type="text" id="input" list="opcoes" placeholder="Filtro" onkeyup="filtro()">
 
             <datalist id="opcoes">
-                <option id="documento">Documento</option>
-                <option id="email">Email</option>
-                <option id="formula">Fórmula</option>
-                <option id="generativa">Generativa</option>
-                <option id="questoes">Questões</option>
-                <option id="reuniao">Reunião</option>
-                <option id="visual">Visual</option>
+                <option>Documento</option>
+                <option>Email</option>
+                <option>Fórmula</option>
+                <option>Generativa</optiond=>
+                <option>Questões</option=>
+                <option>Reunião</option>
+                <option>Visual</option>
             </datalist>
         </article>
 
         <section id="posts-container"></section>
-
+        <h1 class="title">Aumentar produtividade</h1>
         <section class="wrapper wProd">
+    
             <i id="left" class="fa-solid fa-angle-left iProd"></i>
             <div class="carousel cProd">
 
-                <div class="card prod">
+                <div class="card prod" onclick="prod1()">
                     <div><img src="../img/forma_cima.png"></div>
                     <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span class="azul">produtividade
                             I</span></h2>
                     <div id="link">
-                        <a href="produtividade1.html" id="acessarFolders">Acesse</a>
+                        <a href="produtividade1.html" id="acessarFolders">Confira</a>
                     </div>
                     <div id="divbaixo"><img src="../img/folder_baixo.png"></div>
 
                 </div>
-                <div class="card prod">
+                <div class="card prod" onclick="prod2()">
                     <div><img src="../img/forma_cima.png"></div>
                     <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span class="azul">produtividade
                             II</span>
                     </h2>
                     <div id="link">
-                        <a href="produtividade2.html" id="acessarFolders">Acesse</a>
+                        <a href="produtividade2.html" id="acessarFolders">Confira</a>
                     </div>
                     <div id="divbaixo"><img src="../img/folder_baixo.png"></div>
                 </div>
-                <div class="card prod">
+                <div class="card prod" onclick="prod3()">
                     <div><img src="../img/forma_cima.png"></div>
                     <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span class="azul">produtividade
                             III</span>
                     </h2>
                     <div id="link">
-                        <a href="produtividade3.html" id="acessarFolders">Acesse</a>
+                        <a href="produtividade3.html" id="acessarFolders">Confira</a>
                     </div>
                     <div id="divbaixo"><img src="../img/folder_baixo.png"></div>
                 </div>
-                <div class="card prod">
+                <div class="card prod" onclick="prod4()">
                     <div><img src="../img/forma_cima.png"></div>
                     <h2>Ferramentas de <span class="azul">IA</span> para aumentar sua <span class="azul">produtividade
                             IV</span>
                     </h2>
                     <div id="link">
-                        <a href="produtividade4.html" id="acessarFolders">Acesse</a>
+                        <a href="produtividade4.html" id="acessarFolders">Confira</a>
                     </div>
                     <div id="divbaixo"><img src="../img/folder_baixo.png"></div>
                 </div>
@@ -92,26 +94,27 @@
             <i id="right" class="fa-solid fa-angle-right iProd" ></i>
         </section>
 
+        <h1 class="title">Auxílio em sala de aula</h1>
         <section class="wrapper wSala">
             <!-- <i id="left_sala" class="fa-solid fa-angle-left iSala"></i> -->
             <div class="carousel sala" id="cSala">
 
-                <div class="card sala">
+                <div class="card sala" onclick="sala1()">
                     <div><img src="../img/forma_cima.png"></div>
                     <h2>Ferramentas de <span class="azul">IA</span> para <span class="azul">auxiliar em sala de aula
                             I</span></h2>
                     <div id="link">
-                        <a href="sala2.html" id="acessarFolders">Acesse</a>
+                        <a href="sala2.html" id="acessarFolders">Confira</a>
                     </div>
                     <div id="divbaixo"><img src="../img/folder_baixo.png"></div>
                 </div>
 
-                <div class="card sala">
+                <div class="card sala" onclick="sala2()">
                     <div><img src="../img/forma_cima.png"></div>
                     <h2>Ferramentas de <span class="azul">IA</span> para <span class="azul">auxiliar em sala de aula
                             II</span></h2>
                     <div id="link">
-                        <a href="sala1.html" id="acessarFolders">Acesse</a>
+                        <a href="sala1.html" id="acessarFolders">Confira</a>
                     </div>
                     <div id="divbaixo"><img src="../img/folder_baixo.png"></div>
                 </div>

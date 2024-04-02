@@ -20,6 +20,10 @@ nav {
 
 }
 
+.title {
+    color: black;
+    margin-left: 2rem;
+}
 nav a {
     color: white;
     list-style: none;
@@ -130,7 +134,7 @@ input::placeholder {
 /*FAZ AS SETINHAS APARECEREM E FUNCIONAREM*/
 #left,
 #right {
-    top: 60%;
+    top: 67%;
     height: 50px;
     width: 50px;
     cursor: pointer;
@@ -241,6 +245,10 @@ h2 {
     font-style: bold;
     margin: 25px;
     text-align: center;
+}
+
+.card {
+    cursor: pointer;
 }
 
 .card>div>img {
