@@ -1,4 +1,3 @@
-
 const arrayHeight = document.getElementsByClassName('height-nav');
 const navHeight = document.getElementsByTagName('nav')[0];
 
@@ -10,3 +9,4 @@ function abrirMenu() {
 
     botoesMenu.className = botoesMenu.className.includes('responsivo') ? '' : 'responsivo'
 }
+

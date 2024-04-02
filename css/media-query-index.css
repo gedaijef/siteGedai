@@ -1,4 +1,90 @@
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 400px) {
+    #home {
+        display: block;
+        padding: 0;
+    }
+
+    #home h1 {
+        font-size: 1.5em;
+        margin-bottom: 1.5rem;
+    }
+
+    #home img {
+       display: none;
+    }
+
+    #quem_somos h1 {
+        font-size: 1.7rem;
+    }
+
+    #quem_somos div {
+        justify-content: space-between;
+        display: grid;
+    }
+
+    #quem_somos div,
+    #texto_home {
+        margin: 1.4rem;
+
+    }
+
+    #quem_somos img {
+        display: none;
+    }
+
+    #projetos {
+        margin: 2em;
+    }
+
+    #projetos h1 {
+        font-size: 1.2em;
+    }
+
+    .card-inner h2 {
+        font-size: 1.8em;
+        margin-bottom: 2em;
+    }
+
+    .card-inner p {
+        font-size: 1.1em;
+        width: 8rem;
+        height: 25rem;
+    }
+
+    nav,
+    ul {
+        flex-direction: column;
+    }
+
+    ul {
+        text-align: center;
+        margin: 0;
+        height: 0;
+    }
+
+    nav {
+        padding: 0;
+        align-items: flex-start;
+    }
+
+
+
+    button {
+        display: flex;
+    }
+
+    li,
+    ul {
+        width: 100%;
+    }
+
+    ul.responsivo {
+        height: fit-content;
+    }
+
+}
+
+@media screen and (min-width: 400px) {
 
     #home {
         display: block;
@@ -26,7 +112,7 @@
     #quem_somos div,
     #texto_home {
         margin: 1.4rem;
-       
+
     }
 
 
@@ -36,11 +122,11 @@
     }
 
     #projetos {
-        margin: 4em;
+        margin: 2em;
     }
 
     #projetos h1 {
-        font-size: 1.7em;
+        font-size: 1.3em;
     }
 
 
@@ -51,10 +137,10 @@
     }
 
     .card-inner p {
-        font-size: 1.2em;
+        font-size: 1.1em;
         margin-bottom: 1em;
-        width: 20rem;
-        height: 10rem;
+        width: 14rem;
+        height: 15rem;
     }
 
     nav,
@@ -73,7 +159,7 @@
         align-items: flex-start;
     }
 
-   
+
 
     button {
         display: flex;
@@ -88,7 +174,6 @@
         height: fit-content;
     }
 }
-
 
 @media screen and (min-width: 700px) {
 
@@ -121,9 +206,9 @@
     #quem_somos div,
     #texto_home {
         margin: 1.4rem;
-    
+
     }
-  
+
 
     #quem_somos p {
         font-size: 1.2em;
@@ -163,7 +248,7 @@
         font-size: 1.5em;
     }
 
-   
+
 
 }
 
@@ -211,7 +296,7 @@
 
 @media only screen and (min-width: 992px) {
 
-    
+
     .cards {
         width: 20rem
     }
@@ -241,7 +326,9 @@
         font-size: 1.2em;
         width: 34rem;
     }
-    #quem_somos div, #texto_home {
+
+    #quem_somos div,
+    #texto_home {
         margin: 1.4rem;
         width: 100vw;
     }
