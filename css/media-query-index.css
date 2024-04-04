@@ -173,10 +173,6 @@
         padding: 0;
     }
 
-    #home h1 {
-        font-size: 2.2em;
-        margin-bottom: 1rem;
-    }
 
     #texto_home p {
         font-size: 1.2em;
@@ -191,15 +187,6 @@
     #quem_somos h1 {
         font-size: 2em;
     }
-
-
-
-    #quem_somos div,
-    #texto_home {
-        margin: 1.4rem;
-
-    }
-
 
     #quem_somos p {
         font-size: 1.2em;
@@ -250,13 +237,10 @@
         padding: 0;
     }
 
-    #home h1 {
-        font-size: 1.7em;
-    }
+   
 
     #home>div>img {
         width: 37vw;
-        /* margin: 1.2rem; */
 
     }
 
@@ -264,9 +248,21 @@
         font-size: 1em;
     }
 
-    #home p {
-        font-size: 0.9em;
+    
+
+    #texto_home {
+        margin-inline: 2rem;
+        margin-block: 0;
     }
+
+    #home h1 {
+        font-size: 1.4rem;
+        margin-bottom: 0.9rem;
+    }
+
+    #home p {
+        font-size: 0.8rem;
+    } 
 
     #quem_somos div {
         margin: 1.2rem;
@@ -297,7 +293,12 @@
     }
 
     #home p {
-        font-size: 1.1em;
+        font-size: 0.9em;
+    }
+
+    #quem_somos div,
+    #texto_home {
+        margin: 2rem;
     }
 
 }
@@ -306,6 +307,10 @@
 @media only screen and (min-width: 1200px) {
     #home h1 {
         font-size: 2.2em;
+    }
+
+    #home p {
+        font-size: 1.1rem;
     }
 
     #projetos h1 {
@@ -319,8 +324,7 @@
 
     #quem_somos div,
     #texto_home {
-        margin: 1.4rem;
-        width: 100vw;
+        margin-inline: 5rem;
     }
 
     .card-inner h2 {

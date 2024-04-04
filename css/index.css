@@ -56,7 +56,11 @@ nav ul li a {
     align-items: center;
     padding-left: 2em;
 }
-
+#foto{
+    justify-content: end;
+    display: flex;
+    align-items: flex-end;
+}
 #texto_home a {
     text-decoration: underline;
 }
