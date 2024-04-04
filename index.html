@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/media-query-index.css">
     <script src="js/header.js" defer></script>
@@ -16,26 +16,18 @@
 
 <body>
 
+
     <nav>
-        <h1>GEDAI</h1>
-        <button onclick="abrirMenu()">&#9776;</button>
-        <ul id="botoesMenu">
-            <a href="#o_que_e">
-                <li>
-                    <p>O que é</p>
-                </li>
-            </a>
-            <a href="#quem_somos">
-                <li>
-                    <p>Quem somos</p>
-                </li>
-            </a>
-            <a href="#projetos">
-                <li>
-                    <p>Projetos</p>
-                </li>
-            </a>
+        <div class="logo">
+            <h1>GEDAI</h1>
+        </div>
+        <ul id="menuList">
+            <li><a href="#quem_somos">Quem somos</a></li>
+            <li><a href="#projetos">Projetos</a></li>
         </ul>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
     </nav>
 
 
@@ -137,7 +129,7 @@
 
     </main>
 
-
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

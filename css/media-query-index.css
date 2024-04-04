@@ -10,7 +10,7 @@
     }
 
     #home img {
-       display: none;
+        width: 100vw;
     }
 
     #quem_somos h1 {
@@ -51,35 +51,29 @@
         height: 25rem;
     }
 
-    nav,
-    ul {
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
         flex-direction: column;
-    }
-
-    ul {
         text-align: center;
-        margin: 0;
-        height: 0;
+        background: #004274;
+        gap: 0;
+        overflow: hidden;
     }
 
-    nav {
-        padding: 0;
-        align-items: flex-start;
+    nav ul li {
+        padding: 20px;
+        padding-top: 0;
     }
 
-
-
-    button {
-        display: flex;
+    .menu-icon {
+        display: block;
     }
 
-    li,
-    ul {
-        width: 100%;
-    }
-
-    ul.responsivo {
-        height: fit-content;
+    #menuList {
+        transition: all 0.5s;
     }
 
 }
@@ -142,36 +136,33 @@
         width: 14rem;
         height: 15rem;
     }
+}
 
-    nav,
-    ul {
+
+@media (max-width:600px) {
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
         flex-direction: column;
-    }
-
-    ul {
         text-align: center;
-        margin: 0;
-        height: 0;
+        background: #004274;
+        gap: 0;
+        overflow: hidden;
     }
 
-    nav {
-        padding: 0;
-        align-items: flex-start;
+    nav ul li {
+        padding: 20px;
+        padding-top: 0;
     }
 
-
-
-    button {
-        display: flex;
+    .menu-icon {
+        display: block;
     }
 
-    li,
-    ul {
-        width: 100%;
-    }
-
-    ul.responsivo {
-        height: fit-content;
+    #menuList {
+        transition: all 0.5s;
     }
 }
 
@@ -295,7 +286,6 @@
 }
 
 @media only screen and (min-width: 992px) {
-
 
     .cards {
         width: 20rem

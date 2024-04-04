@@ -1,12 +1,11 @@
-const arrayHeight = document.getElementsByClassName('height-nav');
-const navHeight = document.getElementsByTagName('nav')[0];
+let menuList = document.getElementById("menuList")
+menuList.style.maxHeight = "0px";
 
-for (let navHeightObj of arrayHeight)
-    navHeightObj.style.height = navHeight + 'px';
-
-function abrirMenu() {
-    const botoesMenu = document.getElementById('botoesMenu');
-
-    botoesMenu.className = botoesMenu.className.includes('responsivo') ? '' : 'responsivo'
+function toggleMenu() {
+    if (menuList.style.maxHeight == "0px") {
+        menuList.style.maxHeight = "300px";
+    }
+    else {
+        menuList.style.maxHeight = "0px";
+    }
 }
-

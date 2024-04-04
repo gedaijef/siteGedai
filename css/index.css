@@ -15,82 +15,51 @@ html {
     scroll-behavior: smooth;
 }
 
-nav {
-    background-color: #001489;
-    justify-content: space-between;
+nav {    
+    padding: 10px 30px;
+    display: flex;
     align-items: center;
-    width: 100%;
-    top: 0;
+    justify-content: space-between;
+    background-color: #001489;
+    position: relative;
+    height: 70px;
+}
+.logo {
+    color: #fff;
 }
 
-nav h1 {
-    color: white;
+nav ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
 }
 
-button {
-    background-color: transparent;
-    border: none;
-    color: #FFF;
-    font-size: 2rem;
-    position: absolute;
-    right: 10px;
-    top: 10px;
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-icon {
     display: none;
 }
 
-nav,
-ul {
-    display: flex;
-    flex-direction: row;
+.menu-icon i {
+    color: #fff;
+    font-size: 30px;
 }
-
-ul {
-    list-style: none;
-    padding: 0;
-    transition: all .5s;
-}
-
-li {
-    padding: 0 20px;
-}
-
-
-
-nav h1 {
-
-    padding: 10px;
-}
-
-nav a:hover,
-nav button:hover {
-    cursor: pointer;
-    opacity: 0.8;
-    background-color: rgba(255, 255, 255, 0.2);
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-
-#botoesMenu a {
-    padding-block: 16px;
-    color: white;
-}
-
 #home {
     display: flex;
     align-items: center;
     padding-left: 2em;
 }
 
-
-
 #texto_home a {
     text-decoration: underline;
 }
-
 
 #quem_somos {
     background-color: #001489;

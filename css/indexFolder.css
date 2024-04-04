@@ -20,11 +20,6 @@ nav {
 
 }
 
-.title {
-    color: black;
-    margin-left: 2rem;
-}
-
 nav a {
     color: white;
     list-style: none;
@@ -55,8 +50,9 @@ a {
     text-decoration: none;
 }
 
-#botoesMenu a {
-    color: white;
+.title {
+    color: black;
+    margin-left: 2rem;
 }
 
 #pgn {
@@ -110,10 +106,12 @@ input::placeholder {
     margin: 2rem;
     position: relative;
 }
+
 .container:hover {
     border: #4C5AAC 1.2px solid;
     transition: .3s;
 }
+
 .img {
     border-top: 0.5rem solid #4C5AAC;
 }
