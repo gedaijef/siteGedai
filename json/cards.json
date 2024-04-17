@@ -8,7 +8,7 @@
     "link":"https://gedaijef.com/Folders/Bing/bing.html"
   },
   {
-    "classe": "Documento",
+    "classe": "Apresentação",
     "Imagem": "img/tome.app_img.jpg",
     "titulo": "Tome.app",
     "subtitulo": "Quer gerar um documento?",
@@ -40,7 +40,7 @@
     "link": "https://gedaijef.com/Folders/Rows/rows.html"
   },
   {
-    "classe": "Reunião",
+    "classe": "Transcrição",
     "Imagem": "img/luzia_img.jpg",
     "titulo": "LuzIA",
     "subtitulo": "Está em reunião e não pode ouvir áudios no momento?",
@@ -128,7 +128,7 @@
     "link": "https://gedaijef.com/Folders/Pruvo/pruvo.html"
   },
   {
-    "classe": "Documento",
+    "classe": "Apresentação",
     "Imagem": "img/gamma_img.jpg",
     "titulo": "Gamma",
     "subtitulo": "Precisa apresentar um tema?",

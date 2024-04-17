@@ -27,11 +27,6 @@
         margin: 1.4rem;
 
     }
-
-    #quem_somos img {
-        display: none;
-    }
-
     #projetos {
         margin: 2em;
     }
@@ -109,11 +104,6 @@
 
     }
 
-
-
-    #quem_somos img {
-        display: none;
-    }
 
     #projetos {
         margin: 2em;
@@ -319,7 +309,6 @@
 
     #quem_somos p {
         font-size: 1.2em;
-        width: 34rem;
     }
 
     #quem_somos div,
