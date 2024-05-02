@@ -74,11 +74,10 @@ const autoPlay = () => {
     // Autoplay the carousel after every 2500 ms
     timeoutId = setTimeout(() => carouselProd.scrollLeft += firstCardWidthProd, 1500);
 }
-autoPlay();
+
 
 carouselProd.addEventListener("mousedown", dragStart);
 carouselProd.addEventListener("mousemove", dragging);
 document.addEventListener("mouseup", dragStop);
 carouselProd.addEventListener("scroll", infiniteScroll);
 wrapperProd.addEventListener("mouseenter", () => clearTimeout(timeoutId));
-wrapperProd.addEventListener("mouseleave", autoPlay);
