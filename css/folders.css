@@ -120,9 +120,9 @@ main {
 section {
     display: grid;
     grid-auto-flow: row;
-    grid-template-columns: repeat(4, 1fr);
     justify-content: space-around;
-    justify-items: center; /* This will center the articles horizontally */
+    justify-items: center;
+    /* This will center the articles horizontally */
 }
 
 article {
@@ -133,14 +133,40 @@ article {
     box-shadow: 0px 0px 6px #00000025;
     display: flex;
     flex-direction: column;
-    width: 20vw;
 }
 
+#rows {
+    background-image: url('../img/rows_img.jpg');
+}
+
+#luzIA {
+    background-image: url('../img/luzia_img.jpg');
+}
+
+#perplexity {
+    background-image: url('../img/perplexy_img.jpg');
+}
+#bing {
+    background-image: url('../img/bing_img.jpg');
+}
+#tome {
+    background-image: url('../img/tome.app_img.jpg');
+}
+
+#pdf {
+    background-image: url('../img/pdf_img.jpg');
+}
+#supernormal {
+    background-image: url('../img/supernormal_img.jpg');
+}
 
 .banner {
     height: 11rem;
     border-radius: 6px 6px 0px 0px;
     border-top: 0.5rem solid #4C5AAC;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .titulo-card,
@@ -171,91 +197,4 @@ article a {
 
 article a:hover {
     background-color: #4C5AAC;
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    section {
-        grid-template-columns: repeat(1, 1fr); /* Define o grid para ter duas colunas */
-    }
-    article {
-        width: 70vw;
-
-    }
-    .banner {
-        height: 0; 
-    }
-    .titulo-card {
-        font-size: 1em;
-    }
-
-    .subtitulo-card {
-        font-size: 0.9em;
-    }
-
-    .texto-card {
-        font-size: 0.7rem;
-    }
-    #acessarFolders {
-        font-size: 1rem;
-    }
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 600px) and (max-width: 800px) {
-
-    section {
-        grid-template-columns: repeat(2, 1fr); /* Define o grid para ter duas colunas */
-    }
-    article {
-        width: 15rem;
-    }
-    .titulo-card {
-        font-size: 1.5em;
-    }
-    .texto-card {
-        font-size: 1em;
-    }
-
-    #acessarFolders {
-        font-size: 1.1rem;
-    }
-
-
-}
-
-@media only screen and (min-width: 800px) and (max-width: 1080px) {
-    section {
-        grid-template-columns: repeat(2, 1fr); /* Define o grid para ter duas colunas */
-
-    }
-    article {
-        width: 20rem;
-        height: 30rem;
-    }
-}
-
-
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-
-    .titulo-card {
-        font-size: 1.5em;
-    }
-
-    .subtitulo-card {
-        font-size: 1em;
-    }
-
-    .texto-card {
-        font-size: 0.9em;
-    }
-
-    #acessarFolders {
-        font-size: 1rem;
-    }
-
 }
