@@ -122,7 +122,6 @@ section {
     grid-auto-flow: row;
     justify-content: space-around;
     justify-items: center;
-    /* This will center the articles horizontally */
 }
 
 article {
@@ -146,9 +145,11 @@ article {
 #perplexity {
     background-image: url('../img/perplexy_img.jpg');
 }
+
 #bing {
     background-image: url('../img/bing_img.jpg');
 }
+
 #tome {
     background-image: url('../img/tome.app_img.jpg');
 }
@@ -156,8 +157,69 @@ article {
 #pdf {
     background-image: url('../img/pdf_img.jpg');
 }
+
 #supernormal {
     background-image: url('../img/supernormal_img.jpg');
+}
+
+#runway {
+    background-image: url('../img/runway_img.jpg');
+}
+
+#hypertype {
+    background-image: url('../img/hypertype_img.jpg');
+}
+
+#grammarly {
+    background-image: url('../img/grammarly_img.jpg');
+}
+
+#bard {
+    background-image: url('../img/bard_img.jpg');
+}
+
+#copy {
+    background-image: url('../img/copyia_img.jpg');
+}
+
+#mailr {
+    background-image: url('../img/mailr_img.jpg');
+}
+
+#sidebar {
+    background-image: url('../img/sidebar_img.jpg');
+}
+
+#formularizer {
+    background-image: url('../img/formularizer_img.jpg');
+}
+
+#pruvo {
+    background-image: url('../img/pruvo_img.jpg');
+}
+
+#magicAvaliacoes {
+    background-image: url('../img/magicavaliacoes_img.jpg');
+}
+
+#magicPlano {
+    background-image: url('../img/maginplano_img.jpg');
+}
+
+#magicExplicacoes {
+    background-image: url('../img/magicexplicacoes_img.jpg');
+}
+
+#gamma {
+    background-image: url('../img/gamma_img.jpg');
+}
+
+#diffit {
+    background-image: url('../img/difft_img.jpg');
+}
+
+#xmind {
+    background-image: url('../img/xmind_img.jpg');
 }
 
 .banner {
