@@ -15,7 +15,7 @@ html {
     scroll-behavior: smooth;
 }
 
-nav {    
+nav {
     padding: 10px 20px;
     display: flex;
     align-items: center;
@@ -24,10 +24,12 @@ nav {
     position: relative;
     height: 10vh;
 }
-.logo > a {
+
+.logo>a {
     text-decoration: none;
     color: #fff;
 }
+
 nav ul {
     display: flex;
     gap: 30px;
@@ -52,16 +54,19 @@ nav ul li a {
     color: #fff;
     font-size: 30px;
 }
+
 #home {
     display: flex;
     align-items: center;
     padding-left: 2em;
 }
-#foto{
+
+#foto {
     justify-content: end;
     display: flex;
     align-items: flex-end;
 }
+
 #texto_home a {
     text-decoration: underline;
     color: black;
@@ -81,9 +86,6 @@ nav ul li a {
     margin-bottom: 1em;
 }
 
-#projetos {
-    margin: 2em;
-}
 
 .folder-column {
     display: flex;
@@ -110,13 +112,13 @@ nav ul li a {
 }
 
 .circle:nth-child(1) {
-    top: -25px;
-    left: -25px;
+    top: -15px;
+    left: -15px;
 }
 
 .circle:nth-child(2) {
-    bottom: -25px;
-    right: -25px;
+    bottom: -15px;
+    right: -15px;
     animation-name: move-down1;
 }
 
@@ -154,12 +156,19 @@ nav ul li a {
     margin-top: 1rem;
 }
 
+#projetos {
+    overflow-x: hidden;
+}
+
 #o_que_e a,
 #projetos a {
     text-decoration: none;
     color: #383838;
     font-size: 1.2rem;
     padding: 0;
+}
+#projetos h1 {
+    text-align: center;
 }
 
 
@@ -179,7 +188,7 @@ nav ul li a {
     margin: 1rem;
 }
 
-#card3 {
+.link {
     display: grid;
 }
 
@@ -203,4 +212,11 @@ nav ul li a {
 #acessarFolders a {
     color: white;
     font-size: 1rem;
+}
+
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

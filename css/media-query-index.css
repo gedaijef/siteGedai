@@ -27,9 +27,7 @@
         margin: 1.4rem;
 
     }
-    #projetos {
-        margin: 2em;
-    }
+
 
     #projetos h1 {
         font-size: 1.2em;
@@ -105,10 +103,6 @@
     }
 
 
-    #projetos {
-        margin: 2em;
-    }
-
     #projetos h1 {
         font-size: 1.3em;
     }
@@ -124,7 +118,7 @@
         font-size: 1.1em;
         margin-bottom: 1em;
         width: 14rem;
-        height: 15rem;
+        height: 12rem;
     }
 }
 
@@ -156,7 +150,7 @@
     }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 700px) and (max-width: 768px) {
 
     #home {
         display: block;
@@ -187,9 +181,8 @@
         display: none;
     }
 
-    #projetos {
-        margin: 4rem;
-    }
+
+
 
     #projetos h1 {
         font-size: 2.1em;
@@ -227,7 +220,6 @@
         padding: 0;
     }
 
-   
 
     #home>div>img {
         width: 37vw;
@@ -238,7 +230,7 @@
         font-size: 1em;
     }
 
-    
+
 
     #texto_home {
         margin-inline: 2rem;
@@ -252,7 +244,7 @@
 
     #home p {
         font-size: 0.8rem;
-    } 
+    }
 
     #quem_somos div {
         margin: 1.2rem;
@@ -278,8 +270,7 @@
     }
 
     #projetos h1 {
-        font-size: 3em;
-        text-align: center;
+        font-size: 2em;
     }
 
     #home p {
@@ -330,7 +321,7 @@
 
     .card-inner p {
         font-size: 1.3em;
-        width: 15rem;
+        width: 19rem;
     }
 
 
