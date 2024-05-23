@@ -16,6 +16,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <script src="js/header.js" defer></script>
 </head>
 
@@ -29,9 +31,11 @@
             <li><a href="#projetos">Projetos</a></li>
         </ul>
         <div class="menu-icon">
-            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+            <i id="burguer" class="material-icons" onclick="toggleMenu()">menu</i>
         </div>
     </nav>
+
+
 
 
     <main>
@@ -50,7 +54,6 @@
             </div>
             <div id="foto"><img src="img/Foto_Gedai.jpeg" alt="Foto da equipe"></div>
         </section>
-
 
         <!-- O que nós fazemos  -->
         <section id="quem_somos">
@@ -130,7 +133,7 @@
                             mais de 300 entregues por todo o Instituto.
                         </p>
                         <div id="acessarFolders">
-                            <a href="indexFolder.html" >Acesse</a>
+                            <a href="indexFolder.html">Acesse</a>
                         </div>
                     </div>
 
@@ -142,7 +145,8 @@
                     <div class="card-inner">
                         <h2>Chat dos valores</h2>
                         <p>
-                            O Chat dos valores é uma aplicação de Inteligência Artificial Generativa, que busca solucionar as duvidas dos colaboradores quanto aos valores do Instituto J&F.
+                            O Chat dos valores é uma aplicação de Inteligência Artificial Generativa, que busca
+                            solucionar as duvidas dos colaboradores quanto aos valores do Instituto J&F.
                         </p>
                         <div id="acessarFolders">
                             <a href="https://137.117.38.174/f/valores" target="_blank">Acesse</a>
@@ -270,7 +274,7 @@
             speed: 300,
             slidesToShow: 4,
             slidesToScroll: 1,
-            responsive: [   
+            responsive: [
                 {
                     breakpoint: 1500,
                     settings: {

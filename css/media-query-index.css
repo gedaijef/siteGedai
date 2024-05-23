@@ -148,6 +148,9 @@
     #menuList {
         transition: all 0.5s;
     }
+    #quem_somos > img {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 700px) and (max-width: 768px) {
