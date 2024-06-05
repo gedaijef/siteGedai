@@ -4,61 +4,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
     font-family: 'Inter', sans-serif;
-    line-height: 1.6;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-nav {
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #001489;
-    position: relative;
-    height: 7vh;
-}
-
-.logo>a {
-    text-decoration: none;
-    color: #fff;
-}
-
-nav ul {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-
-}
-
-nav ul li {
-    list-style-type: none;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.menu-icon {
-    display: none;
-}
-
-.menu-icon i {
-    color: #fff;
-    font-size: 30px;
-}
-
 #home {
     display: flex;
     align-items: center;
     padding-left: 2em;
+}
+
+main {
+    line-height: 1.6;
 }
 
 #foto {
@@ -79,18 +39,25 @@ nav ul li a {
 }
 
 #quem_somos img {
-    max-width: 37%;
+    max-width: 26%;
 }
-
-#quem_somos h1 {
-    margin-bottom: 1em;
-}
-
 
 #projetos h1 {
     margin-top: 1rem;
 }
 
+
+#quem_somos div {
+    flex-direction: column;
+    justify-content: center;
+}
+
+#skills li {
+    list-style-position: inside;
+    /*Bolinha pra dentro*/
+    list-style-type: '\2714\00A0\00A0';
+
+}
 
 .folder-column {
     display: flex;
@@ -172,15 +139,14 @@ nav ul li a {
     font-size: 1.2rem;
     padding: 0;
 }
+
 #projetos h1 {
     text-align: center;
 }
 
-
 .cards {
     background-color: #F2F3F9;
 }
-
 
 .cards {
     width: 14rem;
@@ -225,18 +191,22 @@ nav ul li a {
     align-items: center;
     justify-content: center;
 }
+
 footer {
     margin-top: 1rem;
-    background-color: #001489;
+    background-color: #383838;
     display: flex;
     color: white;
     padding-block: 1rem;
     align-items: center;
 }
+
 footer h1 {
     border-right: 2px solid white;
     padding-right: 1rem;
 }
-footer p, h1 {
+
+footer p,
+footer h1 {
     margin-left: 1rem;
 }

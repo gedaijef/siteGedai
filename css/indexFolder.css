@@ -8,7 +8,6 @@
 }
 
 body {
-    min-height: 100vh;
     overflow-x: hidden;
 }
 
@@ -20,7 +19,6 @@ nav {
     justify-content: space-between;
     background-color: #001489;
     position: relative;
-    height: 10vh;
 }
 .logo > a {
     text-decoration: none;

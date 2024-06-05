@@ -6,15 +6,15 @@
 
     #home h1 {
         font-size: 1.5em;
+    }
+
+    #home h1,
+    #quem_somos h1 {
         margin-bottom: 1.5rem;
     }
 
     #home img {
         width: 100vw;
-    }
-
-    #quem_somos h1 {
-        font-size: 1.7rem;
     }
 
     #quem_somos div {
@@ -25,7 +25,6 @@
     #quem_somos div,
     #texto_home {
         margin: 1.4rem;
-
     }
 
 
@@ -80,6 +79,10 @@
 
     #home h1 {
         font-size: 2em;
+    }
+
+    #home h1,
+    #quem_somos h1 {
         margin-bottom: 1.5rem;
     }
 
@@ -148,7 +151,8 @@
     #menuList {
         transition: all 0.5s;
     }
-    #quem_somos > img {
+
+    #quem_somos>img {
         display: none;
     }
 }
@@ -233,24 +237,22 @@
         font-size: 1em;
     }
 
-
-
-    #texto_home {
+    #texto_home, #quem_somos div {
         margin-inline: 2rem;
         margin-block: 0;
     }
 
     #home h1 {
         font-size: 1.4rem;
+    }
+
+    #home h1,
+    #quem_somos h1 {
         margin-bottom: 0.9rem;
     }
 
     #home p {
         font-size: 0.8rem;
-    }
-
-    #quem_somos div {
-        margin: 1.2rem;
     }
 
     #quem_somos img {
@@ -282,7 +284,7 @@
 
     #quem_somos div,
     #texto_home {
-        margin: 2rem;
+        margin-inline: 2rem;
     }
 
 }
@@ -299,11 +301,6 @@
 
     #quem_somos p {
         font-size: 1.2em;
-    }
-
-    #quem_somos div,
-    #texto_home {
-        margin-inline: 5rem;
     }
 
     .card-inner h2 {
