@@ -1,4 +1,4 @@
-@media screen and (max-width: 400px) {
+ /* @media screen and (max-width: 400px) {
     #home {
         display: block;
         padding: 0;
@@ -70,12 +70,7 @@
 
 }
 
-@media screen and (min-width: 400px) {
-
-    #home {
-        display: block;
-        padding: 0;
-    }
+@media screen and (min-width: 400px) and (max-width: 600px) {
 
     #home h1 {
         font-size: 2em;
@@ -155,170 +150,168 @@
     #quem_somos>img {
         display: none;
     }
-}
+} */
 
-@media screen and (min-width: 700px) and (max-width: 768px) {
+ @media screen and (min-width: 700px) and (max-width: 768px) {
 
-    #home {
-        display: block;
-        padding: 0;
-    }
-
-
-    #texto_home p {
-        font-size: 1.2em;
-    }
-
-    #home img {
-        width: 100vw;
-    }
+     #home {
+         padding: 0;
+     }
 
 
+     #texto_home p {
+         font-size: 1.2em;
+     }
 
-    #quem_somos h1 {
-        font-size: 2em;
-    }
-
-    #quem_somos p {
-        font-size: 1.2em;
-    }
-
-
-    #quem_somos img {
-        display: none;
-    }
+     #home img {
+         width: 100vw;
+     }
 
 
 
+     #quem_somos h1 {
+         font-size: 2em;
+     }
 
-    #projetos h1 {
-        font-size: 2.1em;
-    }
-
-    .card-inner p {
-        font-size: 1.2em;
-        margin-bottom: 1em;
-        width: 20rem;
-        height: 12rem;
-    }
+     #quem_somos p {
+         font-size: 1.2em;
+     }
 
 
-
-    .card-inner {
-        height: 26rem;
-    }
-
-    .card-inner h2 {
-        font-size: 2.3em;
-    }
-
-    .card-inner p {
-        font-size: 1.5em;
-    }
+     #quem_somos img {
+         display: none;
+     }
 
 
 
-}
+
+     #projetos h1 {
+         font-size: 2.1em;
+     }
+
+     .card-inner p {
+         font-size: 1.2em;
+         margin-bottom: 1em;
+         width: 20rem;
+         height: 12rem;
+     }
 
 
-@media only screen and (min-width: 768px) {
-    #home {
-        display: flex;
-        padding: 0;
-    }
+
+     .card-inner {
+         height: 26rem;
+     }
+
+     .card-inner h2 {
+         font-size: 2.3em;
+     }
+
+     .card-inner p {
+         font-size: 1.5em;
+     }
 
 
-    #home>div>img {
-        width: 37vw;
 
-    }
-
-    #quem_somos p {
-        font-size: 1em;
-    }
-
-    #texto_home, #quem_somos div {
-        margin-inline: 2rem;
-        margin-block: 0;
-    }
-
-    #home h1 {
-        font-size: 1.4rem;
-    }
-
-    #home h1,
-    #quem_somos h1 {
-        margin-bottom: 0.9rem;
-    }
-
-    #home p {
-        font-size: 0.8rem;
-    }
-
-    #quem_somos img {
-        display: block;
-    }
-
-    .card {
-        width: fit-content;
-    }
-
-    .cards {
-        width: 18rem
-    }
-}
-
-@media only screen and (min-width: 992px) {
-
-    .cards {
-        width: 20rem
-    }
-
-    #projetos h1 {
-        font-size: 2em;
-    }
-
-    #home p {
-        font-size: 0.9em;
-    }
-
-    #quem_somos div,
-    #texto_home {
-        margin-inline: 2rem;
-    }
-
-}
+ }
 
 
-@media only screen and (min-width: 1200px) {
-    #home h1 {
-        font-size: 2.2em;
-    }
-
-    #home p {
-        font-size: 1.1rem;
-    }
-
-    #quem_somos p {
-        font-size: 1.2em;
-    }
-
-    .card-inner h2 {
-        font-size: 2.1em;
-    }
-
-    .card {
-        width: 18rem;
-    }
-
-    .cards {
-        width: 17rem;
-    }
-
-    .card-inner p {
-        font-size: 1.3em;
-        width: 19rem;
-    }
+ @media only screen and (min-width: 768px) and (max-width: 992px) {
+     #home {
+         padding: 0;
+     }
 
 
-}
+     #home>div>img {
+         width: 37vw;
+
+     }
+
+     #quem_somos p {
+         font-size: 1em;
+     }
+
+     #texto_home,
+     #quem_somos div {
+         margin-inline: 2rem;
+         margin-block: 0;
+     }
+
+     #home h1 {
+         font-size: 1.4rem;
+     }
+
+     #home h1,
+     #quem_somos h1 {
+         margin-bottom: 0.9rem;
+     }
+
+     #home p {
+         font-size: 0.8rem;
+     }
+
+     #quem_somos img {
+         display: block;
+     }
+
+     .card {
+         width: fit-content;
+     }
+
+     .cards {
+         width: 18rem
+     }
+ }
+
+ @media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+     .cards {
+         width: 20rem
+     }
+
+     #projetos h1 {
+         font-size: 2em;
+     }
+
+     #home p {
+         font-size: 0.9em;
+     }
+
+     #quem_somos div,
+     #texto_home {
+         margin-inline: 2rem;
+     }
+
+ }
+
+
+ @media only screen and (min-width: 1200px) {
+
+     #home h1,
+     #quem_somos h1 {
+         font-size: 1.7em;
+     }
+
+     #home p,
+     #quem_somos p {
+         font-size: 1.1rem;
+     }
+
+     .card-inner h2 {
+         font-size: 2.1em;
+     }
+
+     .card {
+         width: 18rem;
+     }
+
+     .cards {
+         width: 17rem;
+     }
+
+     .card-inner p {
+         font-size: 1.3em;
+         width: 19rem;
+     }
+
+
+ }

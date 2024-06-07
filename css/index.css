@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('../css/header.css');
 
 * {
     margin: 0;
@@ -7,27 +8,173 @@
     font-family: 'Inter', sans-serif;
 }
 
+body {
+    background-color: #F2F3F9;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #001489;
+    border-radius: 20px;
+}
+
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 83px;
+}
+
+nav {
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    padding: 16px 20px;
+    user-select: none;
+    z-index: 3;
+    transition: background-color 0.3s, backdrop-filter 0.3s;
+}
+
+nav.scrolled {
+    background-color: #374ab599;
+    backdrop-filter: blur(10px);
+}
+
+#logos {
+    display: flex;
+    align-items: center;
+}
+
+#logo-instituto {
+    height: 3.2rem;
+    width: 5.7rem;
+    border-right: 2px solid white;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-radius: 2.4px;
+}
+
+main {
+    line-height: 150%;
+}
+
+#tela-inicial {
+    user-select: none;
+    display: flex;
+}
+
+#tela-inicial img {
+    width: 100%;
+}
+
+#tela-inicial h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 2em;
+    transform: translate(-50%, -50%);
+    letter-spacing: .5rem;
+}
+
+#tela-inicial p {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+    left: 50%;
+}
+
+#subtitulo-tela-inicial {
+    top: 55%;
+    font-weight: 300;
+}
+
+#conheca-mais-tela-inicial {
+    top: 90%;
+    font-weight: 500;
+}
+
+#scroll-down {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    color: white;
+    font-size: 2rem;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
 }
 
 #home {
     display: flex;
-    align-items: center;
-    padding-left: 2em;
+    margin: 2rem;
+
 }
 
-main {
-    line-height: 1.6;
+#home h1 {
+    margin-block: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #001489;
 }
 
-#foto {
-    justify-content: end;
+#explicacao {
+    width: 50%;
+}
+
+#explicacao p {
+    text-align: center;
+}
+
+#skills {
+    width: 50%;
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
+    user-select: none;
 }
 
-#texto_home a {
+#skills ul {
+    flex-direction: row;
+    display: flex;
+    gap: .5rem;
+    text-align: center;
+    margin-block: .2rem;
+}
+
+#skills-cima {
+    animation: move-up6 2s ease-in-out infinite alternate-reverse;
+}
+
+#skills-baixo {
+    animation: move-down1 2s ease-in-out infinite alternate-reverse;
+}
+
+#skills li {
+    list-style-type: none;
+    background-color: #8089C4;
+    color: white;
+    height: 5.6rem;
+    width: 5.6rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 8px;
+    font-size: .7rem;
+    line-height: normal;
+}
+
+#skills span {
+    margin-top: .2rem;
+    font-size: 2rem;
+}
+
+#home a {
     text-decoration: underline;
     color: black;
 }
@@ -35,28 +182,32 @@ main {
 #quem_somos {
     background-color: #001489;
     color: #fff;
+    padding: 2rem;
     display: flex;
+    flex-direction: column;
+    align-items: center
 }
 
-#quem_somos img {
-    max-width: 26%;
+#quem_somos h1 {
+    padding-block: 2rem;
 }
+
+#quem_somos p {
+    width: 50%;
+}
+
+#quem_somos h1, #quem_somos p { 
+    text-align: center;
+}
+
 
 #projetos h1 {
     margin-top: 1rem;
 }
 
-
 #quem_somos div {
     flex-direction: column;
     justify-content: center;
-}
-
-#skills li {
-    list-style-position: inside;
-    /*Bolinha pra dentro*/
-    list-style-type: '\2714\00A0\00A0';
-
 }
 
 .folder-column {
