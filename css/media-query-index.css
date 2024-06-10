@@ -1,76 +1,99 @@
- /* @media screen and (max-width: 400px) {
-    #home {
-        display: block;
-        padding: 0;
-    }
+ @media screen and (max-width: 600px) {
+     nav ul {
+         position: absolute;
+         top: 70px;
+         left: 0;
+         right: 0;
+         flex-direction: column;
+         text-align: center;
+         background: #004274;
+         gap: 0;
+         overflow: hidden;
+     }
 
-    #home h1 {
-        font-size: 1.5em;
-    }
+     nav ul li {
+         padding: 20px;
+         padding-top: 0;
+     }
 
-    #home h1,
-    #quem_somos h1 {
-        margin-bottom: 1.5rem;
-    }
+     .menu-icon {
+         display: block;
+     }
 
-    #home img {
-        width: 100vw;
-    }
+     #menuList {
+         transition: all 0.5s;
+     }
 
-    #quem_somos div {
-        justify-content: space-between;
-        display: grid;
-    }
+     #tela-inicial h1 {
+         top: 25vw;
+         font-size: 1.5rem;
+     }
 
-    #quem_somos div,
-    #texto_home {
-        margin: 1.4rem;
-    }
+     #subtitulo-tela-inicial {
+        line-height: normal;
+         top: 34vw;
+         font-size: .8rem;
+         text-align: center;
+     }
 
+     #conheca-mais-tela-inicial,
+     #scroll-down {
+         display: none;
+     }
 
-    #projetos h1 {
-        font-size: 1.2em;
-    }
+     #home {
+         align-items: center;
+         display: flex;
+         flex-direction: column;
+     }
 
-    .card-inner h2 {
-        font-size: 1.8em;
-        margin-bottom: 2em;
-    }
+     #skills {
+         align-items: center;
+         display: flex;
+         flex-direction: column;
+     }
 
-    .card-inner p {
-        font-size: 1.1em;
-        width: 8rem;
-        height: 25rem;
-    }
+     #lista-skills {
+         flex-direction: row;
+     }
 
-    nav ul {
-        position: absolute;
-        top: 70px;
-        left: 0;
-        right: 0;
-        flex-direction: column;
-        text-align: center;
-        background: #004274;
-        gap: 0;
-        overflow: hidden;
-    }
+     #skills ul {
+         flex-direction: column;
+     }
 
-    nav ul li {
-        padding: 20px;
-        padding-top: 0;
-    }
+     #explicacao,
+     #quem_somos p {
+         width: 85%;
+     }
 
-    .menu-icon {
-        display: block;
-    }
+     #quem_somos {
+         text-align: center;
+         align-items: center;
+         display: flex;
+         flex-direction: column;
+         background-position: center;
+     }
 
-    #menuList {
-        transition: all 0.5s;
-    }
+     #home h1,
+     #quem_somos h1,
+     #projetos h1 {
+         font-size: 1.5rem;
+     }
 
-}
+     .card-inner h2 {
+         font-size: 1.8rem;
+         margin-bottom: 2rem;
+     }
 
-@media screen and (min-width: 400px) and (max-width: 600px) {
+     .card-inner p {
+         font-size: .9rem;
+         width: 85%;
+         height: 12rem;
+         justify-self: center;
+     }
+ }
+
+ /* @media screen and (min-width: 400px) and (max-width: 600px) {
 
     #home h1 {
         font-size: 2em;
@@ -285,18 +308,20 @@
 
 
  @media only screen and (min-width: 1200px) {
+
      #home h1,
-     #quem_somos h1, #projetos h1 {
+     #quem_somos h1,
+     #projetos h1 {
          font-size: 1.8rem;
      }
 
      #home p,
-     #quem_somos p{
+     #quem_somos p {
          font-size: 1.1rem;
      }
 
      .card-inner {
-        height: 50vh;
+         height: 50vh;
      }
 
      .card-inner h2 {

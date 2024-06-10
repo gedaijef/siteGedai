@@ -132,10 +132,13 @@ main {
 
 #skills {
     width: 50%;
+    user-select: none;
+}
+
+#lista-skills {
     display: flex;
     flex-direction: column;
     align-items: center;
-    user-select: none;
 }
 
 #skills ul {
