@@ -285,33 +285,27 @@
 
 
  @media only screen and (min-width: 1200px) {
-
      #home h1,
-     #quem_somos h1 {
-         font-size: 1.7em;
+     #quem_somos h1, #projetos h1 {
+         font-size: 1.8rem;
      }
 
      #home p,
-     #quem_somos p {
+     #quem_somos p{
          font-size: 1.1rem;
      }
 
+     .card-inner {
+        height: 50vh;
+     }
+
      .card-inner h2 {
-         font-size: 2.1em;
-     }
-
-     .card {
-         width: 18rem;
-     }
-
-     .cards {
-         width: 17rem;
+         font-size: 1.4rem;
+         margin-top: 1rem;
      }
 
      .card-inner p {
-         font-size: 1.3em;
          width: 19rem;
+         font-size: 1rem;
      }
-
-
  }
