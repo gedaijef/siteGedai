@@ -1,12 +1,13 @@
  @media screen and (max-width: 600px) {
      nav ul {
          position: absolute;
-         top: 70px;
+         top: 4.12rem;
          left: 0;
          right: 0;
          flex-direction: column;
          text-align: center;
-         background: #004274;
+         background-color: #374ab599;
+         backdrop-filter: blur(10px);
          gap: 0;
          overflow: hidden;
      }
@@ -14,6 +15,17 @@
      nav ul li {
          padding: 20px;
          padding-top: 0;
+     }
+
+     #logo-instituto {
+         height: 1.6rem;
+         width: 3rem;
+     }
+
+     .logo {
+         font-size: .9rem;
+         align-items: center;
+         display: flex;
      }
 
      .menu-icon {
@@ -25,15 +37,13 @@
      }
 
      #tela-inicial h1 {
-         top: 25vw;
+         top: 30vw;
+         letter-spacing: .4rem;
          font-size: 1.5rem;
      }
 
      #subtitulo-tela-inicial {
-        line-height: normal;
-         top: 34vw;
-         font-size: .8rem;
-         text-align: center;
+         display: none;
      }
 
      #conheca-mais-tela-inicial,
@@ -81,15 +91,17 @@
      }
 
      .card-inner h2 {
-         font-size: 1.8rem;
+         font-size: 1.5rem;
          margin-bottom: 2rem;
      }
 
      .card-inner p {
          font-size: .9rem;
-         width: 85%;
-         height: 12rem;
          justify-self: center;
+     }
+
+     footer p {
+        font-size: .7rem;
      }
  }
 
