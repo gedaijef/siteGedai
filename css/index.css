@@ -64,6 +64,7 @@ main {
 }
 
 #tela-inicial {
+    position: relative;
     user-select: none;
     display: flex;
 }
@@ -82,16 +83,14 @@ main {
     letter-spacing: .5rem;
 }
 
-#tela-inicial p {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    color: white;
-    left: 50%;
-}
 
 #subtitulo-tela-inicial {
     top: 55%;
     font-weight: 300;
+    position: absolute;
+    color: white;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #conheca-mais-tela-inicial {
@@ -257,7 +256,6 @@ main {
     display: grid;
     grid-template-rows: 3rem;
     margin-inline: .2rem;
-    align-items: center;
 }
 
 #projetos {

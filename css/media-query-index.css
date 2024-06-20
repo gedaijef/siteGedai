@@ -37,9 +37,8 @@
      }
 
      #tela-inicial h1 {
-         top: 30vw;
          letter-spacing: .4rem;
-         font-size: 1.5rem;
+         font-size: 1.2rem;
      }
 
      #subtitulo-tela-inicial {
@@ -69,6 +68,7 @@
 
      #skills ul {
          flex-direction: column;
+         margin-inline: 1rem;
      }
 
      #explicacao,
@@ -90,20 +90,80 @@
          font-size: 1.5rem;
      }
 
-     .card-inner h2 {
-         font-size: 1.5rem;
-         margin-bottom: 2rem;
-     }
-
      .card-inner p {
-         font-size: .9rem;
+         width: 50%;
          justify-self: center;
+         height: 15rem;
+         align-items: center;
+         display: flex;
      }
 
      footer p {
-        font-size: .7rem;
+         font-size: .7rem;
      }
  }
+
+ /* @media screen and (min-width: 600px) and (max-width: 768px) {
+
+    #home {
+        padding: 0;
+    }
+
+
+    #texto_home p {
+        font-size: 1.2em;
+    }
+
+    #home img {
+        width: 100vw;
+    }
+
+
+
+    #quem_somos h1 {
+        font-size: 2em;
+    }
+
+    #quem_somos p {
+        font-size: 1.2em;
+    }
+
+
+    #quem_somos img {
+        display: none;
+    }
+
+
+
+
+    #projetos h1 {
+        font-size: 2.1em;
+    }
+
+    .card-inner p {
+        font-size: 1.2em;
+        margin-bottom: 1em;
+        width: 20rem;
+        height: 12rem;
+    }
+
+
+
+    .card-inner {
+        height: 26rem;
+    }
+
+    .card-inner h2 {
+        font-size: 2.3em;
+    }
+
+    .card-inner p {
+        font-size: 1.5em;
+    }
+
+
+
+} */
 
  /* @media screen and (min-width: 400px) and (max-width: 600px) {
 
@@ -155,99 +215,9 @@
     }
 }
 
+*/
 
-@media (max-width:600px) {
-    nav ul {
-        position: absolute;
-        top: 70px;
-        left: 0;
-        right: 0;
-        flex-direction: column;
-        text-align: center;
-        background: #001489;
-        gap: 0;
-        overflow: hidden;
-    }
-
-    nav ul li {
-        padding: 20px;
-        padding-top: 0;
-    }
-
-    .menu-icon {
-        display: block;
-    }
-
-    #menuList {
-        transition: all 0.5s;
-    }
-
-    #quem_somos>img {
-        display: none;
-    }
-} */
-
- @media screen and (min-width: 700px) and (max-width: 768px) {
-
-     #home {
-         padding: 0;
-     }
-
-
-     #texto_home p {
-         font-size: 1.2em;
-     }
-
-     #home img {
-         width: 100vw;
-     }
-
-
-
-     #quem_somos h1 {
-         font-size: 2em;
-     }
-
-     #quem_somos p {
-         font-size: 1.2em;
-     }
-
-
-     #quem_somos img {
-         display: none;
-     }
-
-
-
-
-     #projetos h1 {
-         font-size: 2.1em;
-     }
-
-     .card-inner p {
-         font-size: 1.2em;
-         margin-bottom: 1em;
-         width: 20rem;
-         height: 12rem;
-     }
-
-
-
-     .card-inner {
-         height: 26rem;
-     }
-
-     .card-inner h2 {
-         font-size: 2.3em;
-     }
-
-     .card-inner p {
-         font-size: 1.5em;
-     }
-
-
-
- }
+ /* 
 
 
  @media only screen and (min-width: 768px) and (max-width: 992px) {
@@ -345,4 +315,4 @@
          width: 19rem;
          font-size: 1rem;
      }
- }
+ } */
