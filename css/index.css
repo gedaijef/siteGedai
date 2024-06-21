@@ -82,10 +82,12 @@ main {
     transform: translate(-50%, -50%);
     letter-spacing: .5rem;
 }
-
-
 #subtitulo-tela-inicial {
-    top: 55%;
+    text-align: center;
+    top: 60%;
+}
+
+#subtitulo-tela-inicial, #conheca-mais-tela-inicial {
     font-weight: 300;
     position: absolute;
     color: white;
@@ -95,7 +97,6 @@ main {
 
 #conheca-mais-tela-inicial {
     top: 90%;
-    font-weight: 500;
 }
 
 #scroll-down {
