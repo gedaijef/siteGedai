@@ -177,7 +177,6 @@
 
 
  @media only screen and (min-width: 768px) and (max-width: 992px) {
-
      #skills {
          align-items: center;
          display: flex;
@@ -202,7 +201,6 @@
      .card-inner {
          height: 20rem;
      }
-
  }
 
 
