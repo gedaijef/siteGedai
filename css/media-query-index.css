@@ -207,9 +207,11 @@
 
 
  @media only screen and (min-width: 1200px) {
-
+    #tela-inicial h1 {
+        top: 50%;
+    }
      .card-inner {
-         height: 30vh;
+         height: 40vh;
      }
 
  }
@@ -265,11 +267,3 @@
 }
 
 */
-
- /* 
-
-
-
-
-
- */

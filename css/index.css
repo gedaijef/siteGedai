@@ -82,12 +82,14 @@ main {
     transform: translate(-50%, -50%);
     letter-spacing: .5rem;
 }
+
 #subtitulo-tela-inicial {
     text-align: center;
-    top: 60%;
+    top: 55%;
 }
 
-#subtitulo-tela-inicial, #conheca-mais-tela-inicial {
+#subtitulo-tela-inicial,
+#conheca-mais-tela-inicial {
     font-weight: 300;
     position: absolute;
     color: white;
@@ -96,12 +98,12 @@ main {
 }
 
 #conheca-mais-tela-inicial {
-    top: 90%;
+    top: 80%;
 }
 
 #scroll-down {
     position: absolute;
-    top: 95%;
+    top: 85%;
     left: 50%;
     color: white;
     font-size: 2rem;
@@ -183,7 +185,7 @@ main {
 }
 
 #quem_somos {
-    background: #001489 url('../img/espaço.webp') center no-repeat;
+    background: #001489 url(../img/espaço.webp) center no-repeat;
     background-size: cover;
     color: #fff;
     padding: 0 2rem 2rem 2rem;
