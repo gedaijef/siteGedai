@@ -207,63 +207,12 @@
 
 
  @media only screen and (min-width: 1200px) {
-    #tela-inicial h1 {
-        top: 50%;
-    }
+     #tela-inicial h1 {
+         top: 50%;
+     }
+
      .card-inner {
          height: 40vh;
      }
 
  }
-
- /* @media screen and (min-width: 400px) and (max-width: 600px) {
-
-    #home h1 {
-        font-size: 2em;
-    }
-
-    #home h1,
-    #quem_somos h1 {
-        margin-bottom: 1.5rem;
-    }
-
-    #home img {
-        width: 100vw;
-    }
-
-    #quem_somos h1 {
-        font-size: 1.7rem;
-    }
-
-    #quem_somos div {
-        justify-content: space-between;
-        display: grid;
-    }
-
-    #quem_somos div,
-    #texto_home {
-        margin: 1.4rem;
-
-    }
-
-
-    #projetos h1 {
-        font-size: 1.3em;
-    }
-
-
-
-    .card-inner h2 {
-        font-size: 1.8em;
-        margin-bottom: 1em;
-    }
-
-    .card-inner p {
-        font-size: 1.1em;
-        margin-bottom: 1em;
-        width: 14rem;
-        height: 12rem;
-    }
-}
-
-*/
