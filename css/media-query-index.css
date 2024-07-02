@@ -41,7 +41,7 @@
          font-size: 1.2rem;
      }
 
-     #subtitulo-tela-inicial {
+     #textos p {
          display: none;
      }
 
@@ -114,11 +114,6 @@
          font-size: 1rem;
          align-items: center;
          display: flex;
-     }
-
-     #subtitulo-tela-inicial {
-         top: 63%;
-         text-align: center;
      }
 
      #conheca-mais-tela-inicial,
@@ -204,9 +199,27 @@
  }
 
 
- @media only screen and (min-width: 1200px) {
-     #tela-inicial h1 {
-         top: 50%;
+ @media only screen and (min-width: 1300px) {
+     #textos {
+         height: 65%;
+     }
+
+     #textos h1 {
+         font-size: 3rem;
+     }
+
+     #textos>p {
+         margin-top: 4rem;
+         font-size: 2rem;
+     }
+
+     #textos-link p {
+         font-size: 2rem;
+     }
+
+     #textos span {
+        margin-top: .5rem;
+         font-size: 3rem;
      }
 
      .card-inner {

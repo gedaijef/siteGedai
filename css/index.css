@@ -73,48 +73,39 @@ main {
     width: 100%;
 }
 
-#tela-inicial h1 {
+#textos {
+    height: 90%;
+    width: 100%;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     color: white;
-    font-size: 2em;
-    transform: translate(-50%, -50%);
-    letter-spacing: .5rem;
 }
 
-#subtitulo-tela-inicial {
-    text-align: center;
-    top: 55%;
-}
-
-#subtitulo-tela-inicial,
-#conheca-mais-tela-inicial {
-    font-weight: 300;
-    position: absolute;
-    color: white;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#conheca-mais-tela-inicial {
-    top: 80%;
-}
-
-#scroll-down {
-    position: absolute;
-    top: 85%;
-    left: 50%;
-    color: white;
+#textos h1 {
     font-size: 2rem;
-    transform: translate(-50%, -50%);
-    cursor: pointer;
+    letter-spacing: .2rem;
+}
+
+#textos p {
+    margin-top: 1rem;
+}
+
+#textos-link {
+    text-align: center;
+    bottom: 5%;
+    position: absolute;
+}
+
+#textos-link a {
+    color: white;
 }
 
 #home {
     display: flex;
     margin: 0 2rem 2rem 2rem;
-
 }
 
 #home h1 {
