@@ -119,6 +119,7 @@
             <h1>Conheça alguns projetos</h1>
 
             <div class="folder-column">
+
                 <div class="card">
                     <div class="circle"></div>
                     <div class="circle"></div>
@@ -202,6 +203,23 @@
 
         </section>
 
+        <!-- Notícias -->
+        <section id="noticias">
+            <article id="noticia-metropoles">
+                <img src="img/Foto-Gedai-Metropoles.webp" alt="Foto da equipe no jornal Metrópoles"
+                    id="foto-gedai-metropoles">
+                <div id="materia">
+                    <p>Notícias - <a target="_blank" href="https://www.metropoles.com">Metrópoles</a></p>
+                    <h1>Como a Inteligência Artificial pode ajudar a Educação Profissional</h1>
+                    <p id="subtitulo-metropoles">O GEDAI é um grupo de estudos com missão de explorar a Inteligência
+                        Artificial</p>
+                    <a target="_blank"
+                        href="https://www.metropoles.com/brasil/educacao-profissional/como-a-inteligencia-artificial-pode-ajudar-a-educacao-profissional"
+                        id="btn-acessar-materia">Acesse</a>
+                </div>
+            </article>
+        </section>
+
 
     </main>
     <footer>
@@ -225,17 +243,20 @@
 
         $('.folder-column').slick({
             dots: true,
-            infinite: false,
+            infinite: true,
             speed: 300,
             slidesToShow: 4,
+
             slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
             responsive: [
                 {
                     breakpoint: 1500,
                     settings: {
                         slidesToShow: 3,
                         slidesToScroll: 1,
-                        infinite: false,
+                        infinite: true,
                         dots: true
                     }
                 },

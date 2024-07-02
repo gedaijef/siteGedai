@@ -98,6 +98,23 @@
          display: flex;
      }
 
+     #noticia-metropoles {
+         grid-template-columns: 1fr;
+         grid-auto-rows: auto auto;
+     }
+
+     #foto-gedai-metropoles {
+         height: auto;
+     }
+
+     #materia h1 {
+         font-size: 1.2rem;
+     }
+
+     #subtitulo-metropoles {
+         font-size: .7rem;
+     }
+
      footer p {
          font-size: .7rem;
      }
@@ -168,6 +185,18 @@
          height: 20rem;
      }
 
+     #noticia-metropoles {
+         grid-template-columns: 1fr;
+         grid-auto-rows: auto auto;
+     }
+
+     #foto-gedai-metropoles {
+         height: auto;
+     }
+
+     #materia h1 {
+         font-size: 1.2rem;
+     }
  }
 
 
@@ -190,9 +219,25 @@
      .card-inner {
          height: 20rem;
      }
+
+     #noticia-metropoles {
+         width: 80%;
+     }
+
+     #materia h1 {
+         font-size: 1.1rem;
+     }
+
+     #foto-gedai-metropoles {
+         height: 100%;
+     }
  }
 
  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+     #noticia-metropoles {
+         width: 80%;
+     }
+
      .card-inner {
          height: 20rem;
      }
@@ -218,11 +263,15 @@
      }
 
      #textos span {
-        margin-top: .5rem;
+         margin-top: .5rem;
          font-size: 3rem;
      }
 
      .card-inner {
          height: 40vh;
+     }
+
+     #foto-gedai-metropoles {
+        height: auto;
      }
  }
