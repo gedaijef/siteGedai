@@ -4,33 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <link rel="stylesheet" href="css/indexFolder.css">
     <link rel="stylesheet" href="css/indexFolder-media.css">
-    <link rel="stylesheet" href="css/header.css">
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <script src="js/carouselProdutividade.js" defer></script>
-    <script src="js/carouselSala.js" defer></script>
-    <script src="js/linksCard.js" defer></script>
-    <script src="js/filtro.js" defer></script>
-    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="js/indexFolder.js" defer></script>
+    <script src="js/header.js" defer></script>
+
     <title>GEDAI</title>
 </head>
 
 <body>
     <nav>
-        <h1 class="logo"><a href="index.html">GEDAI</a></h1>
-        <ul id="menuList">
-            <li><a href="index.html">Home</a></li>
+        <div id="logos">
+            <img src="img/Logo-J_F.webp" alt="Logo institutojef" id="logo-instituto">
+            <h1 class="logo"><a href="index.html">GEDAI</a></h1>
+        </div>
+        <ul>
+            <li><a href="#produtividade">Produtividade</a></li>
+            <li><a href="#sala">Sala</a></li>
         </ul>
     </nav>
 
     <main id="pgn">
 
         <article id="filtro">
-            <input type="text" id="input" list="opcoes" placeholder="Filtro" onkeyup="filtro()">
-
-            <datalist id="opcoes">
+            <select name="filtro" id="filtro-select" id="opcoes" onchange="filtro()">
+                <option value="geral">Geral</option>
                 <option>Documento</option>
                 <option>Email</option>
                 <option>Fórmula</option>
@@ -39,14 +44,13 @@
                 <option>Reunião</option>
                 <option>Transcrição</option>
                 <option>Visual</option>
-            </datalist>
+            </select>
         </article>
 
         <section id="posts-container"></section> <!-- main -->
         <!-- article.container --- section -->
-        <h1 class="title">Aumentar produtividade</h1>
-        <section class="wrapper wProd">
-            <i id="left" class="fa-solid fa-angle-left iProd"></i>
+        <h1 class="title" id="produtividade">Aumentar produtividade</h1>
+        <div class="wrapper wProd">
             <div class="carousel cProd">
 
                 <div class="card prod" onclick="prod1()">
@@ -92,14 +96,11 @@
                     <div id="divbaixo"><img src="img/folder_baixo.png"></div>
                 </div>
             </div>
-            <i id="right" class="fa-solid fa-angle-right iProd"></i>
-        </section>
+        </div>
 
-        <h1 class="title">Auxílio em sala de aula</h1>
-        <section class="wrapper wSala">
-            <i id="left_sala" class="fa-solid fa-angle-left iSala"></i>
+        <h1 class="title" id="sala">Auxílio em sala de aula</h1>
+        <div class="wrapper wSala">
             <div class="carousel cSala">
-
                 <div class="card sala" onclick="sala1()">
                     <div><img src="img/forma_cima.png"></div>
                     <h2>Ferramentas de <span class="azul">IA</span> para <span class="azul">auxiliar em sala de aula
@@ -130,12 +131,78 @@
                     <div id="divbaixo"><img src="img/folder_baixo.png"></div>
                 </div>
 
-
             </div>
-            <i id="right_sala" class="fa-solid fa-angle-right iSala"></i>
-        </section>
-
+        </div>
     </main>
+
+
+    <script>
+        $(document).ready(function () {
+            $('.cProd').slick({
+                prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
+                nextArrow: '<button type="button" class="slick-next"><i class="fas fa-chevron-right"></i></button>',
+                dots: true,
+                autoplaySpeed: 1500,
+                responsive: [
+                    {
+                        breakpoint: 1500,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 880,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 760,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+
+            $('.cSala').slick({
+                prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
+                nextArrow: '<button type="button" class="slick-next"><i class="fas fa-chevron-right"></i></button>',
+                dots: true,
+                autoplaySpeed: 1500,
+                responsive: [
+                    {
+                        breakpoint: 1500,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3
+                        }
+                    },
+                    {
+                        breakpoint: 880,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 760,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+        });
+
+    </script>
+
 </body>
 
 </html>
