@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url(url_imagens.css);
 
 * {
     user-select: none;
@@ -6,71 +7,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-}
-
-
-.bing {
-    color: #000;
-}
-
-.tome {
-    color: rgb(177, 28, 164);
-}
-
-.pdf {
-    color: rgb(59, 96, 216);
-}
-
-.supernormal {
-    color: #9d1cb1;
-}
-
-.rows {
-    color: rgb(224, 191, 3);
-}
-
-.luzIA {
-    color: rgb(59, 111, 29);
-}
-
-.perplexity {
-    color: rgb(16, 121, 107);
-}
-
-.bard {
-    color: rgb(95, 28, 177);
-}
-
-.copy {
-    color: rgb(4, 185, 185);
-}
-
-.mailr {
-    color: rgb(177, 28, 117);
-}
-
-.sidebar {
-    color: rgb(177, 28, 164);
-}
-
-.formularizer {
-    color: rgb(29, 169, 48);
-}
-
-.pruvo {
-    color: rgb(119, 91, 163);
-}
-
-.gamma {
-    color: rgb(200, 58, 188);
-}
-
-.diffit {
-    color: rgb(28, 177, 130);
-}
-
-.xmind {
-    color: rgb(246, 86, 0);
 }
 
 html {
@@ -96,94 +32,6 @@ article {
     box-shadow: 0px 0px 6px #00000025;
     display: flex;
     flex-direction: column;
-}
-
-#rows {
-    background-image: url('../img/rows_img.jpg');
-}
-
-#luzIA {
-    background-image: url('../img/luzia_img.jpg');
-}
-
-#perplexity {
-    background-image: url('../img/perplexy_img.jpg');
-}
-
-#bing {
-    background-image: url('../img/bing_img.jpg');
-}
-
-#tome {
-    background-image: url('../img/tome.app_img.jpg');
-}
-
-#pdf {
-    background-image: url('../img/pdf_img.jpg');
-}
-
-#supernormal {
-    background-image: url('../img/supernormal_img.jpg');
-}
-
-#runway {
-    background-image: url('../img/runway_img.jpg');
-}
-
-#hypertype {
-    background-image: url('../img/hypertype_img.jpg');
-}
-
-#grammarly {
-    background-image: url('../img/grammarly_img.jpg');
-}
-
-#bard {
-    background-image: url('../img/bard_img.jpg');
-}
-
-#copy {
-    background-image: url('../img/copyia_img.jpg');
-}
-
-#mailr {
-    background-image: url('../img/mailr_img.jpg');
-}
-
-#sidebar {
-    background-image: url('../img/sidebar_img.jpg');
-}
-
-#formularizer {
-    background-image: url('../img/formularizer_img.jpg');
-}
-
-#pruvo {
-    background-image: url('../img/pruvo_img.jpg');
-}
-
-#magicAvaliacoes {
-    background-image: url('../img/magicavaliacoes_img.jpg');
-}
-
-#magicPlano {
-    background-image: url('../img/maginplano_img.jpg');
-}
-
-#magicExplicacoes {
-    background-image: url('../img/magicexplicacoes_img.jpg');
-}
-
-#gamma {
-    background-image: url('../img/gamma_img.jpg');
-}
-
-#diffit {
-    background-image: url('../img/difft_img.jpg');
-}
-
-#xmind {
-    background-image: url('../img/xmind_img.jpg');
 }
 
 .banner {
@@ -218,7 +66,6 @@ article a {
     color: white;
     padding: 5px 10px;
     transition: .3s;
-
 }
 
 article a:hover {

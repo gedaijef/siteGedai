@@ -1,0 +1,151 @@
+#rows {
+    background-image: url('../img/rows_img.jpg');
+}
+
+#luzia {
+    background-image: url('../img/luzia_img.jpg');
+}
+
+#perplexity {
+    background-image: url('../img/perplexy_img.jpg');
+}
+
+#bingchat {
+    background-image: url('../img/bing_img.jpg');
+}
+
+#tomeapp {
+    background-image: url('../img/tome.app_img.jpg');
+}
+
+#chatpdf {
+    background-image: url('../img/pdf_img.jpg');
+}
+
+#supernormal {
+    background-image: url('../img/supernormal_img.jpg');
+}
+
+#runway {
+    background-image: url('../img/runway_img.jpg');
+}
+
+#hypertype {
+    background-image: url('../img/hypertype_img.jpg');
+}
+
+#grammarly {
+    background-image: url('../img/grammarly_img.jpg');
+}
+
+#bard {
+    background-image: url('../img/bard_img.jpg');
+}
+
+#copyia {
+    background-image: url('../img/copyia_img.jpg');
+}
+
+#mailr {
+    background-image: url('../img/mailr_img.jpg');
+}
+
+#chatgptsidebar {
+    background-image: url('../img/sidebar_img.jpg');
+}
+
+#formularizer {
+    background-image: url('../img/formularizer_img.jpg');
+}
+
+#pruvo {
+    background-image: url('../img/pruvo_img.jpg');
+}
+
+#magicschoolavaliações {
+    background-image: url('../img/magicavaliacoes_img.jpg');
+}
+
+#magicschoolplanodeaula {
+    background-image: url('../img/maginplano_img.jpg');
+}
+
+#magicschoolexplicações {
+    background-image: url('../img/magicexplicacoes_img.jpg');
+}
+
+#gamma {
+    background-image: url('../img/gamma_img.jpg');
+}
+
+#diffit {
+    background-image: url('../img/difft_img.jpg');
+}
+
+#xmind {
+    background-image: url('../img/xmind_img.jpg');
+}
+
+.bing {
+    color: #000;
+}
+
+.tomeapp {
+    color: rgb(177, 28, 164);
+}
+
+.chatpdf {
+    color: rgb(59, 96, 216);
+}
+
+.supernormal {
+    color: #9d1cb1;
+}
+
+.rows {
+    color: rgb(224, 191, 3);
+}
+
+.luzia {
+    color: rgb(59, 111, 29);
+}
+
+.perplexity {
+    color: rgb(16, 121, 107);
+}
+
+.bard {
+    color: rgb(95, 28, 177);
+}
+
+.copyia {
+    color: rgb(4, 185, 185);
+}
+
+.mailr {
+    color: rgb(177, 28, 117);
+}
+
+.chatgptsidebar {
+    color: rgb(177, 28, 164);
+}
+
+.formularizer {
+    color: rgb(29, 169, 48);
+}
+
+.pruvo {
+    color: rgb(119, 91, 163);
+}
+
+.gamma {
+    color: rgb(200, 58, 188);
+}
+
+.diffit {
+    color: rgb(28, 177, 130);
+}
+
+.xmind {
+    color: rgb(246, 86, 0);
+}

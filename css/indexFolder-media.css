@@ -1,79 +1,51 @@
-@media screen and (max-width: 900px) {
-    .carousel {
-        grid-auto-columns: calc((100% / 2) - 9px);
-    }
-}
-
 @media screen and (max-width: 600px) {
-    input[type=text] {
-        margin: 2rem;
-        height: 4vh;
+    .wrapper {
+        margin-block: 1rem;
     }
+
     main h1 {
         font-size: 1.5rem;
     }
-    .wrapper {
-        margin-top: 2rem;
-    }
-    #left, #right {
-        top: 23rem;
-    }
-    #left_sala, #right_sala {
-        top: 53rem;
-    }
-    .carousel {
-        grid-auto-columns: 100%;
-    }
-    .container {
+
+    #posts-container>article {
         width: 20rem;
         height: 35rem;
         margin-inline: 2rem;
     }
 
     .subtitulo-card {
-        margin-bottom: 1rem;
-        font-size: 1.3em;
+        font-size: 1em;
     }
 
     #acessarFolders {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 }
 
 @media only screen and (min-width: 600px) {
-
-    input[type=text] {
-        margin: 2rem;
-        height: 4vh;
+    .wrapper {
+        margin-block: 1rem;
     }
+
     main h1 {
         font-size: 1.7rem;
     }
-    .wrapper {
-        margin-top: 2rem;
-    }
-    #left, #right {
-        top: 25rem;
-    }
-    #left_sala, #right_sala {
-        top: 55rem;
-    }
 
-    .container {
-        width: 24rem;
-        height: 35rem;
+    #posts-container>article {
+        width: 20rem;
+        height: 30rem;
     }
 
     .titulo-card {
-        font-size: 2em;
+        font-size: 1rem;
     }
 
     .subtitulo-card {
-        font-size: 1.3em;
+        font-size: 0.9rem;
     }
 
     .texto-card {
-        font-size: 1.1em;
+        font-size: 0.8rem;
     }
 
     #acessarFolders {
@@ -83,70 +55,62 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .container {
-        width: 21rem;
-        height: 35rem;
+    .wrapper {
+        margin-block: 1rem;
+    }
+
+    .card h2 {
+        font-size: 1.2rem;
+    }
+
+    #posts-container>article {
+        width: 20rem;
+        height: 30rem;
     }
 
     .titulo-card {
-        font-size: 1.5em;
-    }
-
-    .subtitulo-card {
         font-size: 1.3em;
     }
 
-    .texto-card {
-        font-size: 1.1em;
+    .subtitulo-card {
+        font-size: 1em;
     }
 
-    #acessarFolders {
-        font-size: 1.1rem;
+    .texto-card {
+        font-size: 0.9em;
     }
 }
 
 @media only screen and (min-width: 992px) {
 
-    .container {
-        width: 28rem;
-        height: 40rem;
+    #posts-container>article {
+        width: 20rem;
+        height: 30rem;
     }
 
     .titulo-card {
-        font-size: 1.8em;
+        font-size: 1.5em;
     }
 
     .subtitulo-card {
-        font-size: 1.4em;
+        font-size: 1.1em;
     }
 
     .texto-card {
-        font-size: 1.2em;
+        font-size: 0.9em;
     }
 }
 
 @media only screen and (min-width: 1200px) {
 
-    input[type=text] {
-        margin: 2rem;
-        height: 6vh;
-    }
-
-    #left, #right {
-        top: 27rem;
-    }
-
-    #left_sala, #right_sala {
-        top: 57rem;
-    }
-    .container {
+    #posts-container>article {
         width: 20rem;
-        height: 33rem;
+        height: 30rem;
         margin: 1rem;
     }
 
     .titulo-card {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     .subtitulo-card {
