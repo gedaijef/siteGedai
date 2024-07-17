@@ -1,15 +1,13 @@
 [
   {
     "classe": ["Visual", "Generativa"],
-    "Imagem": "img/bing_img.jpg",
     "titulo": "Bing Chat",
     "subtitulo": "Precisa criar imagens?",
     "texto": "O BING é uma ferramenta de Inteligência Artificial oferece a criação rápida e instantânea de imagens e logotipos por meio de mensagens de texto via chat.",
-    "link":"https://gedaijef.com/Folders/Bing/bing.html"
+    "link": "https://gedaijef.com/Folders/Bing/bing.html"
   },
   {
     "classe": "Apresentação",
-    "Imagem": "img/tome.app_img.jpg",
     "titulo": "Tome.app",
     "subtitulo": "Quer gerar um documento?",
     "texto": "O TOME é um utensílio que disponibiliza a criação de apresentações de forma eficiente, basta aplicar um texto no chat e ele organizará da melhor forma.",
@@ -17,7 +15,6 @@
   },
   {
     "classe": "Documento",
-    "Imagem": "img/pdf_img.jpg",
     "titulo": "Chat-PDF",
     "subtitulo": "Quer resumir um PDF?",
     "texto": "O CHATPDF pode ler qualquer PDF e responder perguntas relacionadas ao conteúdo. Também sugere perguntas sobre o mesmo, para melhor compreensão",
@@ -25,7 +22,6 @@
   },
   {
     "classe": "Reunião",
-    "Imagem": "img/supernormal_img.jpg",
     "titulo": "Supernormal",
     "subtitulo": "Deve gravar uma reunião?",
     "texto": "O Supernormal tem ferramentas de transcrição e gravação de reuniões, geração de atas, notas em vários idiomas e integrações com Slack e Google.",
@@ -33,7 +29,6 @@
   },
   {
     "classe": "Fórmula",
-    "Imagem": "img/rows_img.jpg",
     "titulo": "Rows",
     "subtitulo": "Precisa gerar um gráfico de última hora mas não tem tempo?",
     "texto": "O Rows faz isso para você de forma rápida a partir de uma frase, podendo também gerar análises dos dados.",
@@ -41,7 +36,6 @@
   },
   {
     "classe": "Transcrição",
-    "Imagem": "img/luzia_img.jpg",
     "titulo": "LuzIA",
     "subtitulo": "Está em reunião e não pode ouvir áudios no momento?",
     "texto": "Ao encaminhar o áudio para a LuzIA, ela irá transcreve-lo para que o usuário leia e entenda sem precisar ouvi-lo.",
@@ -49,7 +43,6 @@
   },
   {
     "classe": "Documento",
-    "Imagem": "img/perplexy_img.jpg",
     "titulo": "Perplexity",
     "subtitulo": "Precisa fazer uma pesquisa e necessita das fontes?",
     "texto": "O Perplexity mostra aos usuários as fontes de onde foram tiradas, além de mostrar um conteúdo extra, como vídeos e sites.",
@@ -57,7 +50,6 @@
   },
   {
     "classe": "Generativa",
-    "Imagem": "img/bard_img.jpg",
     "titulo": "Bard",
     "subtitulo": "Seu projeto requer novas tecnologias?",
     "texto": "Você pode usar o Bard para encontrar tutoriais e documentação que o ajudem a aprender como usar a tecnologia.",
@@ -65,7 +57,6 @@
   },
   {
     "classe": "Reunião",
-    "Imagem": "img/copyia_img.jpg",
     "titulo": "Copy.ia",
     "subtitulo": "Terá uma reunião com diversos temas?",
     "texto": "Com o Copy.ai você pode criar uma pauta detalhada, sugerindo tópicos relevantes e permitindo que você os personalize conforme necessário",
@@ -73,7 +64,6 @@
   },
   {
     "classe": "Email",
-    "Imagem": "img/mailr_img.jpg",
     "titulo": "Mailr",
     "subtitulo": "Precisa enviar um e-mail urgente?",
     "texto": "O Mailr pode otimizar o seu tempo na montagem do texto melhorando a qualidade da escrita, recomendando palavras e expressões.",
@@ -81,7 +71,6 @@
   },
   {
     "classe": "Visual",
-    "Imagem": "img/runway_img.jpg",
     "titulo": "Runway",
     "subtitulo": "Precisa de um vídeo com critérios específicos nele?",
     "texto": "No Runway, você pode adicionar textos livres ou imagens para criar vídeos, incluindo trilhas sonoras ou narrações.",
@@ -89,7 +78,6 @@
   },
   {
     "classe": "Email",
-    "Imagem": "img/hypertype_img.jpg",
     "titulo": "Hypertype",
     "subtitulo": "Precisa responder um e-mail com um arquivo excel em anexo?",
     "texto": "O Hypertype pode gerar a resposta para esse e-mail com base em informações importantes presentes na planilha.",
@@ -97,7 +85,7 @@
   },
   {
     "classe": "Documento",
-    "Imagem": "img/grammarly_img.jpg",
+    "id": "grammarly",
     "titulo": "Grammarly",
     "subtitulo": "Precisa verificar a gramática de um documento?",
     "texto": "O Grammarly aponta erros e sugere as devidas correções, proporcionando uma experiência aprimorada para o usuário.",
@@ -105,7 +93,6 @@
   },
   {
     "classe": ["Questões", "Generativa"],
-    "Imagem": "img/sidebar_img.jpg",
     "titulo": "ChatGPT Sidebar",
     "subtitulo": "Precisa de ajuda para explicar algo?",
     "texto": "Pesquise utilizando os recursos web da extensão sidebar do ChatGPT, como o traduzir ou explicar, para desenvolver uma outra resposta com seus alunos.",
@@ -113,7 +100,6 @@
   },
   {
     "classe": "Fórmula",
-    "Imagem": "img/formularizer_img.jpg",
     "titulo": "Formularizer",
     "subtitulo": "Quer lembrar funcionalidades do Excel?",
     "texto": "Além de sugerir fórmulas ou funções, o Formularizer pode gerar um passo a passo de como realizar determinada tarefa ou ler scripts de VBA e AppScript.",
@@ -121,7 +107,6 @@
   },
   {
     "classe": "Questões",
-    "Imagem": "img/pruvo_img.jpg",
     "titulo": "Pruvo",
     "subtitulo": "Precisa criar questões?",
     "texto": "O Pruvo pode gerar uma questão da sua matéria com o assunto desejado ou até mesmo criar uma atividade para seus alunos realizarem no Forms.",
@@ -129,7 +114,6 @@
   },
   {
     "classe": "Apresentação",
-    "Imagem": "img/gamma_img.jpg",
     "titulo": "Gamma",
     "subtitulo": "Precisa apresentar um tema?",
     "texto": "Ao encaminhar um arquivo ou texto para o Gamma, a ferramenta gera uma apresentação em menos de um minuto, mostrando todo o processo.",
@@ -137,7 +121,6 @@
   },
   {
     "classe": "Questões",
-    "Imagem": "img/difft_img.jpg",
     "titulo": "Diffit",
     "subtitulo": "Quer treinar para provas?",
     "texto": "Você pode usar o Diffit para gerar questões de compreensão e investigação, estimulando discussão e promovendo o pensamento crítico.",
@@ -145,7 +128,6 @@
   },
   {
     "classe": "Documento",
-    "Imagem": "img/xmind_img.jpg",
     "titulo": "Xmind",
     "subtitulo": "Precisa de conteúdo diferente?",
     "texto": "O Xmind é usado para visualizar ideias de forma criativa que ajudará na compreensão do tema, como criar um mapa mental.",
@@ -153,7 +135,6 @@
   },
   {
     "classe": "Questões",
-    "Imagem": "img/magicavaliacoes_img.jpg",
     "titulo": "Magic School: avaliações",
     "subtitulo": "Deseja aplicar um quiz?",
     "texto": "Usando o Magic School, você pode criar essas avaliações baseada nos seus critérios, descrevendo a matéria.",
@@ -161,7 +142,6 @@
   },
   {
     "classe": "Documento",
-    "Imagem": "img/maginplano_img.jpg",
     "titulo": "Magic School: plano de aula",
     "subtitulo": "Quer gerar um plano de aula?",
     "texto": "Com o “Plano de aula”, basta inserir o tópico e seu objetivo com a aula para a preparação do conteúdo.",
@@ -169,7 +149,6 @@
   },
   {
     "classe": "Questões",
-    "Imagem": "img/magicexplicacoes_img.jpg",
     "titulo": "Xmind",
     "subtitulo": "Quer facilitar o conteúdo?",
     "texto": "A ferramenta de “Múltiplas Explicações” pode gerar analogias, para que facilite o conteúdo de forma prática.",
