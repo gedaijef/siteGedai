@@ -8,14 +8,14 @@
   },
   {
     "classe": "Apresentação",
-    "titulo": "Tome.app",
+    "titulo": "Tome App",
     "subtitulo": "Quer gerar um documento?",
     "texto": "O TOME é um utensílio que disponibiliza a criação de apresentações de forma eficiente, basta aplicar um texto no chat e ele organizará da melhor forma.",
     "link": "https://gedaijef.com/Folders/Tome/tome.html"
   },
   {
     "classe": "Documento",
-    "titulo": "Chat-PDF",
+    "titulo": "Chat PDF",
     "subtitulo": "Quer resumir um PDF?",
     "texto": "O CHATPDF pode ler qualquer PDF e responder perguntas relacionadas ao conteúdo. Também sugere perguntas sobre o mesmo, para melhor compreensão",
     "link": "https://gedaijef.com/Folders/Chatpdf/chatpdf.html"
@@ -57,7 +57,7 @@
   },
   {
     "classe": "Reunião",
-    "titulo": "Copy.ia",
+    "titulo": "Copy ia",
     "subtitulo": "Terá uma reunião com diversos temas?",
     "texto": "Com o Copy.ai você pode criar uma pauta detalhada, sugerindo tópicos relevantes e permitindo que você os personalize conforme necessário",
     "link": "https://gedaijef.com/Folders/Copy/copy.html"
@@ -135,14 +135,14 @@
   },
   {
     "classe": "Questões",
-    "titulo": "Magic School: avaliações",
+    "titulo": "Magic School Avaliações",
     "subtitulo": "Deseja aplicar um quiz?",
     "texto": "Usando o Magic School, você pode criar essas avaliações baseada nos seus critérios, descrevendo a matéria.",
     "link": "https://gedaijef.com/Folders/MagicSchool/magicschool.html"
   },
   {
     "classe": "Documento",
-    "titulo": "Magic School: plano de aula",
+    "titulo": "Magic School Plano de Aula",
     "subtitulo": "Quer gerar um plano de aula?",
     "texto": "Com o “Plano de aula”, basta inserir o tópico e seu objetivo com a aula para a preparação do conteúdo.",
     "link": "https://gedaijef.com/Folders/MagicSchool/magicschool.html"
