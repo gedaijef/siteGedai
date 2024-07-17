@@ -36,10 +36,10 @@ nav {
     padding: 16px 20px;
     user-select: none;
     z-index: 2;
-    transition: background-color 0.3s, backdrop-filter 0.3s;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transition: background-color 0.3s, backdrop-filter 0.3s;
 }
 
 nav.scrolled {

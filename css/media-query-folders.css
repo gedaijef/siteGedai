@@ -1,31 +1,30 @@
 /*Esse media query vale para todos os folders menos o de Produtividade 1*/
-article {
-    width: 25vw;
-}
-
-section {
-    grid-template-columns: repeat(3, 1fr);
-}
-
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 600px) {
     article {
-        width: 60vw;
+        width: 65vw;
     }
-
-    section {
-        grid-template-columns: repeat(1, 1fr);
+    .titulo-card {
+        font-size: 1rem;
     }
-
-
+    .texto-card {
+        font-size: .8rem;
+    }
 }
 
-@media screen and (min-width: 560px) and (max-width: 768px) {
+@media screen and (min-width: 600px) and (max-width: 768px) {
     article {
-        width: 35vw;
+        width: 40vw;
     }
 
-    section {
-        grid-template-columns: repeat(2, 1fr);
+    .texto-card {
+        font-size: .8rem;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    article {
+        width: 25vw;
     }
 
     .subtitulo-card {
@@ -34,5 +33,25 @@ section {
 
     .texto-card {
         font-size: 0.8rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    article {
+        width: 25vw;
+    }
+
+    .texto-card {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    article {
+        width: 23vw;
+    }
+
+    .texto-card {
+        font-size: .9rem;
     }
 }
