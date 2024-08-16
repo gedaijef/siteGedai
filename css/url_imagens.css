@@ -26,18 +26,6 @@
     background-image: url('../img/supernormal_img.webp');
 }
 
-#runway {
-    background-image: url('../img/runway_img.webp');
-}
-
-#hypertype {
-    background-image: url('../img/hypertype_img.webp');
-}
-
-#grammarly {
-    background-image: url('../img/grammarly_img.webp');
-}
-
 #bard {
     background-image: url('../img/bard_img.webp');
 }
@@ -84,6 +72,18 @@
 
 #xmind {
     background-image: url('../img/xmind_img.webp');
+}
+
+#notion {
+    background-image: url('../img/notion_img.webp');
+}
+
+#elicit {
+    background-image: url('../img/elicit_img.webp');
+}
+
+#magicslides {
+    background-image: url('../img/magicslides_img.webp');
 }
 
 .bing {

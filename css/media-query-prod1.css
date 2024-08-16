@@ -1,0 +1,76 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    section {
+        grid-template-columns: repeat(1, 1fr);
+        /* Define o grid para ter duas colunas */
+    }
+
+    article {
+        width: 70vw;
+    }
+
+    .titulo-card {
+        font-size: 1em;
+    }
+
+    .subtitulo-card {
+        font-size: 0.9em;
+    }
+
+    .texto-card {
+        font-size: 0.7rem;
+    }
+
+    #acessarFolders {
+        font-size: 1rem;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .titulo-card {
+        font-size: 1.3em;
+    }
+
+    .subtitulo-card {
+        font-size: .9rem;
+    }
+
+    .texto-card {
+        font-size: .8em;
+    }
+
+    #acessarFolders {
+        font-size: 1.1rem;
+    }
+
+
+}
+
+@media only screen and (min-width: 992px) {
+    .texto-card {
+        font-size: .85rem;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    article {
+        width: 25vw;
+    }
+    .titulo-card {
+        font-size: 1.5em;
+    }
+
+    .subtitulo-card {
+        font-size: 1em;
+    }
+
+    .texto-card {
+        font-size: 0.8em;
+    }
+
+}
